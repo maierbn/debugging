@@ -1,0 +1,3092 @@
+                              Pushing language C
+                              Popping language C
+                              Pushing language CUDA
+                              Popping language CUDA
+                              Pushing language Cxx
+                              Popping language Cxx
+                              Pushing language FC
+                              Popping language FC
+
+================================================================================
+================================================================================
+Starting Configure Run at Sun Nov 25 15:19:05 2018
+Configure Options: --configModules=PETSc.Configure --optionsModule=config.compilerOptions --prefix=/store/software/opendihu/dependencies/petsc/install --with-shared-libraries=0 --with-debugging=no --with-blas-lib=/store/software/opendihu/dependencies/lapack/install/lib/libblas.so --with-lapack-lib=/store/software/opendihu/dependencies/lapack/install/lib/liblapacke.so --with-mpi-dir=/store/software/opendihu/dependencies/mpi/install COPTFLAGS=-O3 CXXOPTFLAGS=-O3 FOPTFLAGS=-O3 CPP=arm-linux-gnueabi-cpp AR=arm-linux-gnueabi-ar --with-batch --known-mpi-shared-libraries=0
+Working directory: /store/software/opendihu/dependencies/petsc/src/petsc-3.7.6
+Machine platform:
+('Linux', 'lapsgs05', '4.15.0-39-generic', '#42-Ubuntu SMP Tue Oct 23 15:48:01 UTC 2018', 'x86_64', 'x86_64')
+Python version:
+2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+================================================================================
+          Pushing language C
+          Popping language C
+          Pushing language CUDA
+          Popping language CUDA
+          Pushing language Cxx
+          Popping language Cxx
+          Pushing language FC
+          Popping language FC
+================================================================================
+TEST configureExternalPackagesDir from config.framework(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/framework.py:834)
+TESTING: configureExternalPackagesDir from config.framework(config/BuildSystem/config/framework.py:834)
+================================================================================
+TEST configureDebuggers from config.utilities.debuggers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/utilities/debuggers.py:22)
+TESTING: configureDebuggers from config.utilities.debuggers(config/BuildSystem/config/utilities/debuggers.py:22)
+  Find a default debugger and determine its arguments
+Checking for program /home/maierbn/bin/gdb...not found
+Checking for program /home/maierbn/.local/bin/gdb...not found
+Checking for program /store/wiss/organisation/timekeeping/gdb...not found
+Checking for program /usr/local/sbin/gdb...not found
+Checking for program /usr/local/bin/gdb...not found
+Checking for program /usr/sbin/gdb...not found
+Checking for program /usr/bin/gdb...found
+                Defined make macro "GDB" to "/usr/bin/gdb"
+Checking for program /home/maierbn/bin/dbx...not found
+Checking for program /home/maierbn/.local/bin/dbx...not found
+Checking for program /store/wiss/organisation/timekeeping/dbx...not found
+Checking for program /usr/local/sbin/dbx...not found
+Checking for program /usr/local/bin/dbx...not found
+Checking for program /usr/sbin/dbx...not found
+Checking for program /usr/bin/dbx...not found
+Checking for program /sbin/dbx...not found
+Checking for program /bin/dbx...not found
+Checking for program /usr/games/dbx...not found
+Checking for program /usr/local/games/dbx...not found
+Checking for program /snap/bin/dbx...not found
+Checking for program /usr/lib/jvm/java-8-oracle/bin/dbx...not found
+Checking for program /usr/lib/jvm/java-8-oracle/db/bin/dbx...not found
+Checking for program /usr/lib/jvm/java-8-oracle/jre/bin/dbx...not found
+Checking for program /media/maierbn/ext/2018/opencmiss/extras/TAU/tau-2.23.1/install/x86_64/bin/dbx...not found
+Checking for program /store/wiss/3dprinter/scripts/dbx...not found
+Checking for program /store/software/opendihu/scripts/dbx...not found
+Checking for program /store/software/opendihu/dependencies/python/install/bin/dbx...not found
+Checking for program /store/software/opencor/OpenCOR-0-5-Linux/dbx...not found
+Checking for program /store/software/paraview/ParaView-5.6.0-RC1-Qt5-MPI-Linux-64bit/bin/dbx...not found
+Checking for program /store/software/FlameGraph/dbx...not found
+Checking for program /home/maierbn/dbx...not found
+Checking for program /home/maierbn/bin/xdb...not found
+Checking for program /home/maierbn/.local/bin/xdb...not found
+Checking for program /store/wiss/organisation/timekeeping/xdb...not found
+Checking for program /usr/local/sbin/xdb...not found
+Checking for program /usr/local/bin/xdb...not found
+Checking for program /usr/sbin/xdb...not found
+Checking for program /usr/bin/xdb...not found
+Checking for program /sbin/xdb...not found
+Checking for program /bin/xdb...not found
+Checking for program /usr/games/xdb...not found
+Checking for program /usr/local/games/xdb...not found
+Checking for program /snap/bin/xdb...not found
+Checking for program /usr/lib/jvm/java-8-oracle/bin/xdb...not found
+Checking for program /usr/lib/jvm/java-8-oracle/db/bin/xdb...not found
+Checking for program /usr/lib/jvm/java-8-oracle/jre/bin/xdb...not found
+Checking for program /media/maierbn/ext/2018/opencmiss/extras/TAU/tau-2.23.1/install/x86_64/bin/xdb...not found
+Checking for program /store/wiss/3dprinter/scripts/xdb...not found
+Checking for program /store/software/opendihu/scripts/xdb...not found
+Checking for program /store/software/opendihu/dependencies/python/install/bin/xdb...not found
+Checking for program /store/software/opencor/OpenCOR-0-5-Linux/xdb...not found
+Checking for program /store/software/paraview/ParaView-5.6.0-RC1-Qt5-MPI-Linux-64bit/bin/xdb...not found
+Checking for program /store/software/FlameGraph/xdb...not found
+Checking for program /home/maierbn/xdb...not found
+Checking for program /home/maierbn/bin/dsymutil...not found
+Checking for program /home/maierbn/.local/bin/dsymutil...not found
+Checking for program /store/wiss/organisation/timekeeping/dsymutil...not found
+Checking for program /usr/local/sbin/dsymutil...not found
+Checking for program /usr/local/bin/dsymutil...not found
+Checking for program /usr/sbin/dsymutil...not found
+Checking for program /usr/bin/dsymutil...not found
+Checking for program /sbin/dsymutil...not found
+Checking for program /bin/dsymutil...not found
+Checking for program /usr/games/dsymutil...not found
+Checking for program /usr/local/games/dsymutil...not found
+Checking for program /snap/bin/dsymutil...not found
+Checking for program /usr/lib/jvm/java-8-oracle/bin/dsymutil...not found
+Checking for program /usr/lib/jvm/java-8-oracle/db/bin/dsymutil...not found
+Checking for program /usr/lib/jvm/java-8-oracle/jre/bin/dsymutil...not found
+Checking for program /media/maierbn/ext/2018/opencmiss/extras/TAU/tau-2.23.1/install/x86_64/bin/dsymutil...not found
+Checking for program /store/wiss/3dprinter/scripts/dsymutil...not found
+Checking for program /store/software/opendihu/scripts/dsymutil...not found
+Checking for program /store/software/opendihu/dependencies/python/install/bin/dsymutil...not found
+Checking for program /store/software/opencor/OpenCOR-0-5-Linux/dsymutil...not found
+Checking for program /store/software/paraview/ParaView-5.6.0-RC1-Qt5-MPI-Linux-64bit/bin/dsymutil...not found
+Checking for program /store/software/FlameGraph/dsymutil...not found
+Checking for program /home/maierbn/dsymutil...not found
+              Defined make macro "DSYMUTIL" to "true"
+              Defined "USE_GDB_DEBUGGER" to "1"
+================================================================================
+TEST configureGit from config.sourceControl(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/sourceControl.py:24)
+TESTING: configureGit from config.sourceControl(config/BuildSystem/config/sourceControl.py:24)
+  Find the Git executable
+Checking for program /home/maierbn/bin/git...not found
+Checking for program /home/maierbn/.local/bin/git...not found
+Checking for program /store/wiss/organisation/timekeeping/git...not found
+Checking for program /usr/local/sbin/git...not found
+Checking for program /usr/local/bin/git...not found
+Checking for program /usr/sbin/git...not found
+Checking for program /usr/bin/git...found
+                Defined make macro "GIT" to "git"
+Executing: git --version
+stdout: git version 2.17.1
+================================================================================
+TEST configureMercurial from config.sourceControl(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/sourceControl.py:35)
+TESTING: configureMercurial from config.sourceControl(config/BuildSystem/config/sourceControl.py:35)
+  Find the Mercurial executable
+Checking for program /home/maierbn/bin/hg...not found
+Checking for program /home/maierbn/.local/bin/hg...not found
+Checking for program /store/wiss/organisation/timekeeping/hg...not found
+Checking for program /usr/local/sbin/hg...not found
+Checking for program /usr/local/bin/hg...not found
+Checking for program /usr/sbin/hg...not found
+Checking for program /usr/bin/hg...found
+                Defined make macro "HG" to "hg"
+Executing: hg version -q
+stdout: Mercurial Distributed SCM (version 4.5.3)
+================================================================================
+TEST configureCLanguage from PETSc.options.languages(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/languages.py:27)
+TESTING: configureCLanguage from PETSc.options.languages(config/PETSc/options/languages.py:27)
+  Choose whether to compile the PETSc library using a C or C++ compiler
+            C language is C
+              Defined "CLANGUAGE_C" to "1"
+================================================================================
+TEST configureDirectories from PETSc.options.petscdir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/petscdir.py:23)
+TESTING: configureDirectories from PETSc.options.petscdir(config/PETSc/options/petscdir.py:23)
+  Checks PETSC_DIR and sets if not set
+            Version Information:
+            #define PETSC_VERSION_RELEASE    1
+            #define PETSC_VERSION_MAJOR      3
+            #define PETSC_VERSION_MINOR      7
+            #define PETSC_VERSION_SUBMINOR   6
+            #define PETSC_VERSION_PATCH      0
+            #define PETSC_VERSION_DATE       "Apr, 24, 2017"
+            #define PETSC_VERSION_GIT        "v3.7.6"
+            #define PETSC_VERSION_DATE_GIT   "2017-04-24 08:44:52 -0500"
+            #define PETSC_VERSION_(MAJOR,MINOR,SUBMINOR) \
+            #define PETSC_VERSION_LT(MAJOR,MINOR,SUBMINOR)          \
+            #define PETSC_VERSION_LE(MAJOR,MINOR,SUBMINOR) \
+            #define PETSC_VERSION_GT(MAJOR,MINOR,SUBMINOR) \
+            #define PETSC_VERSION_GE(MAJOR,MINOR,SUBMINOR) \
+              Defined make macro "DIR" to "/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6"
+================================================================================
+TEST getDatafilespath from PETSc.options.dataFilesPath(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/dataFilesPath.py:29)
+TESTING: getDatafilespath from PETSc.options.dataFilesPath(config/PETSc/options/dataFilesPath.py:29)
+  Checks what DATAFILESPATH should be
+================================================================================
+TEST configureInstallationMethod from PETSc.options.petscclone(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/petscclone.py:20)
+TESTING: configureInstallationMethod from PETSc.options.petscclone(config/PETSc/options/petscclone.py:20)
+            This is a tarball installation
+================================================================================
+TEST configureArchitecture from PETSc.options.arch(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/arch.py:36)
+TESTING: configureArchitecture from PETSc.options.arch(config/PETSc/options/arch.py:36)
+  Checks PETSC_ARCH and sets if not set
+              Defined "ARCH" to ""arch-linux2-c-opt""
+================================================================================
+TEST setInstallDir from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:35)
+TESTING: setInstallDir from PETSc.options.installDir(config/PETSc/options/installDir.py:35)
+   setup installDir to either prefix or if that is not set to PETSC_DIR/PETSC_ARCH
+================================================================================
+TEST saveReconfigure from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:74)
+TESTING: saveReconfigure from PETSc.options.installDir(config/PETSc/options/installDir.py:74)
+================================================================================
+TEST cleanInstallDir from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:67)
+TESTING: cleanInstallDir from PETSc.options.installDir(config/PETSc/options/installDir.py:67)
+================================================================================
+TEST configureInstallDir from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:51)
+TESTING: configureInstallDir from PETSc.options.installDir(config/PETSc/options/installDir.py:51)
+  Makes  installDir subdirectories if it does not exist for both prefix install location and PETSc work install location
+            Changed persistence directory to /store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/arch-linux2-c-opt/lib/petsc/conf
+================================================================================
+TEST restoreReconfigure from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:87)
+TESTING: restoreReconfigure from PETSc.options.installDir(config/PETSc/options/installDir.py:87)
+================================================================================
+TEST setExternalPackagesDir from PETSc.options.externalpackagesdir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/externalpackagesdir.py:15)
+TESTING: setExternalPackagesDir from PETSc.options.externalpackagesdir(config/PETSc/options/externalpackagesdir.py:15)
+================================================================================
+TEST cleanExternalpackagesDir from PETSc.options.externalpackagesdir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/externalpackagesdir.py:22)
+TESTING: cleanExternalpackagesDir from PETSc.options.externalpackagesdir(config/PETSc/options/externalpackagesdir.py:22)
+================================================================================
+TEST printEnvVariables from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1589)
+TESTING: printEnvVariables from config.setCompilers(config/BuildSystem/config/setCompilers.py:1589)
+            **** printenv ****
+XDG_SESSION_TYPE=x11
+LC_PAPER=de_DE.UTF-8
+PAM_KWALLET_LOGIN=/run/user/20412/kwallet.socket
+SHELL=/bin/bash
+XDG_DATA_DIRS=/usr/share/unity:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop
+MANDATORY_PATH=/usr/share/gconf/unity.mandatory.path
+TERMINATOR_UUID=urn:uuid:bbc2e349-b90b-475f-9a29-fd43b834a6f9
+COMPIZ_CONFIG_PROFILE=ubuntu
+UNITY_DEFAULT_PROFILE=unity
+OPENCMISS_EXTRAS=/media/maierbn/ext/2018/opencmiss/extras
+TEXTDOMAIN=im-config
+XMODIFIERS=@im=ibus
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+INVOCATION_ID=e838af42029b4d9e8ebe7fb881b7fd40
+GTK2_MODULES=overlay-scrollbar
+XDG_RUNTIME_DIR=/run/user/20412
+TAU_CALLPATH=1
+PYTHONPATH=/media/maierbn/ext/2018/opencmiss/own_scripts:/store/software/opendihu/scripts:/store/software/opendihu/scripts/geometry_manipulation
+OPENCMISS_DEB_DIR=/media/maierbn/ext/2018/opencmiss/examples/cuboid/build_debug/Fortran
+COMPIZ_BIN_PATH=/usr/bin/
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+PAM_KWALLET5_LOGIN=/run/user/20412/kwallet5.socket
+QT_ACCESSIBILITY=1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/20412/bus
+TARGET=arm-linux-gnueabi
+DESKTOP_SESSION=unity
+GTK_MODULES=gail:atk-bridge:unity-gtk-module
+CXX=arm-linux-gnueabi-g++
+WISS_DIR=/store/wiss
+LC_NAME=de_DE.UTF-8
+XDG_MENU_PREFIX=gnome-
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LC_NUMERIC=de_DE.UTF-8
+SIMBODY_HOME=/store/software/simbody/src
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LESSOPEN=| /usr/bin/lesspipe %s
+XDG_CURRENT_DESKTOP=Unity:Unity7:ubuntu
+CPP=arm-linux-gnueabi-cpp
+USER=maierbn
+OPENCMISS_HOME=/media/maierbn/ext/2018/opencmiss
+MANAGERPID=2648
+XAUTHORITY=/home/maierbn/.Xauthority
+JOURNAL_STREAM=9:40665
+SESSION_MANAGER=local/lapsgs05:@/tmp/.ICE-unix/2964,unix/lapsgs05:/tmp/.ICE-unix/2964
+LC_MEASUREMENT=de_DE.UTF-8
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+DISPLAY=:0
+GTK_CSD=0
+CLUTTER_IM_MODULE=xim
+PETSC_DIR=/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6
+OPENCMISS_SDK_DIR=/media/maierbn/ext/2018/opencmiss/dependencies/install
+OPENCMISS_INPUT_DIR=/media/maierbn/ext/2018/opencmiss/examples/cuboid/input
+GPG_AGENT_INFO=/run/user/20412/gnupg/S.gpg-agent:0:1
+XDG_SESSION_DESKTOP=unity
+OPENCMISS_REL_DIR=/media/maierbn/ext/2018/opencmiss/examples/cuboid/build_release/Fortran
+GDMSESSION=unity
+TERMINATOR_DBUS_NAME=net.tenshu.Terminator20x1a6021154d881c
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+_=./configure
+LC_IDENTIFICATION=de_DE.UTF-8
+XDG_CONFIG_DIRS=/etc/xdg/xdg-unity:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings
+LC_MONETARY=de_DE.UTF-8
+AR=arm-linux-gnueabi-ar
+COLORTERM=truecolor
+OPENDIHU_HOME=/store/software/opendihu
+LC_TIME=de_DE.UTF-8
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/maierbn
+QT4_IM_MODULE=ibus
+FC=arm-linux-gnueabi-gfortran
+HOME=/home/maierbn
+LD_LIBRARY_PATH=:/store/software/opendihu/dependencies/petsc/install/lib:/store/software/simbody/install:/store/software/opensim/opensim-core/install
+LANG=en_US.UTF-8
+LC_ADDRESS=de_DE.UTF-8
+GTK_IM_MODULE=ibus
+OPENCMISS_ROOT=/media/maierbn/ext/2018/opencmiss/legacyOpenCMISSRoot
+VTE_VERSION=5202
+TERMINATOR_DBUS_PATH=/net/tenshu/Terminator2
+TAU_DIR=/media/maierbn/ext/2018/opencmiss/extras/TAU/tau-2.23.1/install/x86_64/lib
+F77=arm-linux-gnueabi-gfortran
+OPENSIM_HOME=/store/software/opensim/opensim-core/src
+LESSCLOSE=/usr/bin/lesspipe %s %s
+DEFAULTS_PATH=/usr/share/gconf/unity.default.path
+OPENCMISS_INSTALL_DIR=/media/maierbn/ext/2018/opencmiss/iron_maierbn/install
+SSH_AGENT_LAUNCHER=gnome-keyring
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+UNITY_HAS_3D_SUPPORT=true
+QT_IM_MODULE=ibus
+LOGNAME=maierbn
+PATH=/home/maierbn/bin:/home/maierbn/.local/bin:/store/wiss/organisation/timekeeping/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/media/maierbn/ext/2018/opencmiss/extras/TAU/tau-2.23.1/install/x86_64/bin:/store/wiss/3dprinter/scripts:/store/software/opendihu/scripts:/store/software/opendihu/dependencies/python/install/bin:/store/software/opencor/OpenCOR-0-5-Linux:/store/software/paraview/ParaView-5.6.0-RC1-Qt5-MPI-Linux-64bit/bin:/store/software/FlameGraph
+TERM=xterm-256color
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+CC=arm-linux-gnueabi-gcc
+IM_CONFIG_PHASE=2
+GIO_LAUNCHED_DESKTOP_FILE_PID=3359
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop
+HOSTCC=gcc
+SSH_AUTH_SOCK=/run/user/20412/keyring/ssh
+TEXTDOMAINDIR=/usr/share/locale/
+LD_PRELOAD=libgtk3-nocsd.so.0
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+LANGUAGE=en_US
+OLDPWD=/store/software/opendihu
+GDM_LANG=en_US
+LC_TELEPHONE=de_DE.UTF-8
+SHLVL=2
+PWD=/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6
+OpenCMISSLibs_DIR=/media/maierbn/Samsung_T5/opencmiss_official2/opencmiss/install/
+GNOME_SESSION_XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+================================================================================
+TEST resetEnvCompilers from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1596)
+TESTING: resetEnvCompilers from config.setCompilers(config/BuildSystem/config/setCompilers.py:1596)
+                ===============================================================================
+                    ***** WARNING: CC (set to arm-linux-gnueabi-gcc) found in environment variables - ignoring 
+                     use ./configure CC=$CC if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: CXX (set to arm-linux-gnueabi-g++) found in environment variables - ignoring 
+                     use ./configure CXX=$CXX if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: FC (set to arm-linux-gnueabi-gfortran) found in environment variables - ignoring 
+                     use ./configure FC=$FC if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: F77 (set to arm-linux-gnueabi-gfortran) found in environment variables - ignoring 
+                     use ./configure F77=$F77 if you really want to use that value ******
+                ===============================================================================
+              
+            CPP (set to arm-linux-gnueabi-cpp) found in environment variables - ignoring since also set on command line
+            AR (set to arm-linux-gnueabi-ar) found in environment variables - ignoring since also set on command line
+================================================================================
+TEST checkEnvCompilers from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1626)
+TESTING: checkEnvCompilers from config.setCompilers(config/BuildSystem/config/setCompilers.py:1626)
+================================================================================
+TEST checkMPICompilerOverride from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1561)
+TESTING: checkMPICompilerOverride from config.setCompilers(config/BuildSystem/config/setCompilers.py:1561)
+  Check if --with-mpi-dir is used along with CC CXX or FC compiler options.
+    This usually prevents mpi compilers from being used - so issue a warning
+================================================================================
+TEST requireMpiLdPath from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1580)
+TESTING: requireMpiLdPath from config.setCompilers(config/BuildSystem/config/setCompilers.py:1580)
+  OpenMPI wrappers require LD_LIBRARY_PATH set
+================================================================================
+TEST checkVendor from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:417)
+TESTING: checkVendor from config.setCompilers(config/BuildSystem/config/setCompilers.py:417)
+  Determine the compiler vendor
+            Compiler vendor is ""
+================================================================================
+TEST checkInitialFlags from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:427)
+TESTING: checkInitialFlags from config.setCompilers(config/BuildSystem/config/setCompilers.py:427)
+  Initialize the compiler and linker flags
+              Pushing language C
+            Initialized CFLAGS to 
+            Initialized CFLAGS to 
+            Initialized LDFLAGS to 
+              Popping language C
+              Pushing language CUDA
+            Initialized CUDAFLAGS to 
+            Initialized CUDAFLAGS to 
+            Initialized LDFLAGS to 
+              Popping language CUDA
+              Pushing language Cxx
+            Initialized CXXFLAGS to 
+            Initialized CXX_CXXFLAGS to 
+            Initialized LDFLAGS to 
+              Popping language Cxx
+              Pushing language FC
+            Initialized FFLAGS to 
+            Initialized FFLAGS to 
+            Initialized LDFLAGS to 
+              Popping language FC
+            Initialized CPPFLAGS to 
+            Initialized CUDAPPFLAGS to 
+            Initialized CXXCPPFLAGS to 
+            Initialized CC_LINKER_FLAGS to []
+            Initialized CXX_LINKER_FLAGS to []
+            Initialized FC_LINKER_FLAGS to []
+            Initialized CUDAC_LINKER_FLAGS to []
+            Initialized sharedLibraryFlags to []
+            Initialized dynamicLibraryFlags to []
+================================================================================
+TEST checkCCompiler from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:553)
+TESTING: checkCCompiler from config.setCompilers(config/BuildSystem/config/setCompilers.py:553)
+  Locate a functional C compiler
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpicc...found
+                Defined make macro "CC" to "/store/software/opendihu/dependencies/mpi/install/bin/mpicc"
+                Pushing language C
+                            All intermediate test results are stored in /tmp/petsc-BwhN3_
+                          All intermediate test results are stored in /tmp/petsc-BwhN3_/config.setCompilers
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+                                                Pushing language C
+                                                Popping language C
+                                                Pushing language CUDA
+                                                Popping language CUDA
+                                                Pushing language Cxx
+                                                Popping language Cxx
+                                                Pushing language FC
+                                                Popping language FC
+                        Pushing language C
+                        Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest    /tmp/petsc-BwhN3_/config.setCompilers/conftest.o 
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+                        Pushing language C
+                        Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest    /tmp/petsc-BwhN3_/config.setCompilers/conftest.o  -lpetsc-ufod4vtr9mqHvKIQiVAm
+Possible ERROR while running linker: exit code 256
+stderr:
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/ld: cannot find -lpetsc-ufod4vtr9mqHvKIQiVAm
+collect2: error: ld returned 1 exit status
+                Popping language C
+================================================================================
+TEST checkCPreprocessor from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:586)
+TESTING: checkCPreprocessor from config.setCompilers(config/BuildSystem/config/setCompilers.py:586)
+  Locate a functional C preprocessor
+Checking for program /home/maierbn/bin/arm-linux-gnueabi-cpp...not found
+Checking for program /home/maierbn/.local/bin/arm-linux-gnueabi-cpp...not found
+Checking for program /store/wiss/organisation/timekeeping/arm-linux-gnueabi-cpp...not found
+Checking for program /usr/local/sbin/arm-linux-gnueabi-cpp...not found
+Checking for program /usr/local/bin/arm-linux-gnueabi-cpp...not found
+Checking for program /usr/sbin/arm-linux-gnueabi-cpp...not found
+Checking for program /usr/bin/arm-linux-gnueabi-cpp...found
+                Defined make macro "CPP" to "arm-linux-gnueabi-cpp"
+              Pushing language C
+Executing: arm-linux-gnueabi-cpp  -I/tmp/petsc-BwhN3_/config.setCompilers  /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+stdout:
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 31 "<command-line>"
+# 1 "/usr/arm-linux-gnueabi/include/stdc-predef.h" 1 3
+# 32 "<command-line>" 2
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.c"
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/confdefs.h" 1
+# 2 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.c" 2
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/conffix.h" 1
+# 3 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.c" 2
+# 1 "/usr/arm-linux-gnueabi/include/stdlib.h" 1 3
+# 25 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/libc-header-start.h" 1 3
+# 33 "/usr/arm-linux-gnueabi/include/bits/libc-header-start.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/features.h" 1 3
+# 424 "/usr/arm-linux-gnueabi/include/features.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 1 3
+# 427 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/wordsize.h" 1 3
+# 428 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/long-double.h" 1 3
+# 429 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 2 3
+# 425 "/usr/arm-linux-gnueabi/include/features.h" 2 3
+# 448 "/usr/arm-linux-gnueabi/include/features.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/gnu/stubs.h" 1 3
+# 1 "/usr/arm-linux-gnueabi/include/gnu/stubs-soft.h" 1 3
+# 8 "/usr/arm-linux-gnueabi/include/gnu/stubs.h" 2 3
+# 449 "/usr/arm-linux-gnueabi/include/features.h" 2 3
+# 34 "/usr/arm-linux-gnueabi/include/bits/libc-header-start.h" 2 3
+# 26 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 216 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 3 4
+# 216 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 3 4
+typedef unsigned int size_t;
+# 328 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 3 4
+typedef unsigned int wchar_t;
+# 32 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/waitflags.h" 1 3
+# 52 "/usr/arm-linux-gnueabi/include/bits/waitflags.h" 3
+typedef enum
+{
+  P_ALL,
+  P_PID,
+  P_PGID
+} idtype_t;
+# 40 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/waitstatus.h" 1 3
+# 41 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 55 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/floatn.h" 1 3
+# 52 "/usr/arm-linux-gnueabi/include/bits/floatn.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/floatn-common.h" 1 3
+# 52 "/usr/arm-linux-gnueabi/include/bits/floatn.h" 2 3
+# 56 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+typedef struct
+  {
+    int quot;
+    int rem;
+  } div_t;
+typedef struct
+  {
+    long int quot;
+    long int rem;
+  } ldiv_t;
+__extension__ typedef struct
+  {
+    long long int quot;
+    long long int rem;
+  } lldiv_t;
+# 97 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern size_t __ctype_get_mb_cur_max (void) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern double atof (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+extern int atoi (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+extern long int atol (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+__extension__ extern long long int atoll (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+extern double strtod (const char *__restrict __nptr,
+        char **__restrict __endptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern float strtof (const char *__restrict __nptr,
+       char **__restrict __endptr) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern long double strtold (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 176 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern long int strtol (const char *__restrict __nptr,
+   char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern unsigned long int strtoul (const char *__restrict __nptr,
+      char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+__extension__
+extern long long int strtoq (const char *__restrict __nptr,
+        char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+__extension__
+extern unsigned long long int strtouq (const char *__restrict __nptr,
+           char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+__extension__
+extern long long int strtoll (const char *__restrict __nptr,
+         char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+__extension__
+extern unsigned long long int strtoull (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 385 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *l64a (long int __n) __attribute__ ((__nothrow__ , __leaf__)) ;
+extern long int a64l (const char *__s)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+# 1 "/usr/arm-linux-gnueabi/include/sys/types.h" 1 3
+# 27 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types.h" 1 3
+# 27 "/usr/arm-linux-gnueabi/include/bits/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/wordsize.h" 1 3
+# 28 "/usr/arm-linux-gnueabi/include/bits/types.h" 2 3
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+__extension__ typedef signed long long int __int64_t;
+__extension__ typedef unsigned long long int __uint64_t;
+__extension__ typedef long long int __quad_t;
+__extension__ typedef unsigned long long int __u_quad_t;
+__extension__ typedef long long int __intmax_t;
+__extension__ typedef unsigned long long int __uintmax_t;
+# 130 "/usr/arm-linux-gnueabi/include/bits/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/typesizes.h" 1 3
+# 131 "/usr/arm-linux-gnueabi/include/bits/types.h" 2 3
+__extension__ typedef __u_quad_t __dev_t;
+__extension__ typedef unsigned int __uid_t;
+__extension__ typedef unsigned int __gid_t;
+__extension__ typedef unsigned long int __ino_t;
+__extension__ typedef __u_quad_t __ino64_t;
+__extension__ typedef unsigned int __mode_t;
+__extension__ typedef unsigned int __nlink_t;
+__extension__ typedef long int __off_t;
+__extension__ typedef __quad_t __off64_t;
+__extension__ typedef int __pid_t;
+__extension__ typedef struct { int __val[2]; } __fsid_t;
+__extension__ typedef long int __clock_t;
+__extension__ typedef unsigned long int __rlim_t;
+__extension__ typedef __u_quad_t __rlim64_t;
+__extension__ typedef unsigned int __id_t;
+__extension__ typedef long int __time_t;
+__extension__ typedef unsigned int __useconds_t;
+__extension__ typedef long int __suseconds_t;
+__extension__ typedef int __daddr_t;
+__extension__ typedef int __key_t;
+__extension__ typedef int __clockid_t;
+__extension__ typedef void * __timer_t;
+__extension__ typedef long int __blksize_t;
+__extension__ typedef long int __blkcnt_t;
+__extension__ typedef __quad_t __blkcnt64_t;
+__extension__ typedef unsigned long int __fsblkcnt_t;
+__extension__ typedef __u_quad_t __fsblkcnt64_t;
+__extension__ typedef unsigned long int __fsfilcnt_t;
+__extension__ typedef __u_quad_t __fsfilcnt64_t;
+__extension__ typedef int __fsword_t;
+__extension__ typedef int __ssize_t;
+__extension__ typedef long int __syscall_slong_t;
+__extension__ typedef unsigned long int __syscall_ulong_t;
+typedef __off64_t __loff_t;
+typedef char *__caddr_t;
+__extension__ typedef int __intptr_t;
+__extension__ typedef unsigned int __socklen_t;
+typedef int __sig_atomic_t;
+# 30 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef __u_char u_char;
+typedef __u_short u_short;
+typedef __u_int u_int;
+typedef __u_long u_long;
+typedef __quad_t quad_t;
+typedef __u_quad_t u_quad_t;
+typedef __fsid_t fsid_t;
+typedef __loff_t loff_t;
+typedef __ino_t ino_t;
+# 60 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+typedef __dev_t dev_t;
+typedef __gid_t gid_t;
+typedef __mode_t mode_t;
+typedef __nlink_t nlink_t;
+typedef __uid_t uid_t;
+typedef __off_t off_t;
+# 98 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+typedef __pid_t pid_t;
+typedef __id_t id_t;
+typedef __ssize_t ssize_t;
+typedef __daddr_t daddr_t;
+typedef __caddr_t caddr_t;
+typedef __key_t key_t;
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/clock_t.h" 1 3
+typedef __clock_t clock_t;
+# 128 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/clockid_t.h" 1 3
+typedef __clockid_t clockid_t;
+# 130 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/time_t.h" 1 3
+typedef __time_t time_t;
+# 131 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/timer_t.h" 1 3
+typedef __timer_t timer_t;
+# 132 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 145 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 146 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef unsigned long int ulong;
+typedef unsigned short int ushort;
+typedef unsigned int uint;
+# 1 "/usr/arm-linux-gnueabi/include/bits/stdint-intn.h" 1 3
+# 24 "/usr/arm-linux-gnueabi/include/bits/stdint-intn.h" 3
+typedef __int8_t int8_t;
+typedef __int16_t int16_t;
+typedef __int32_t int32_t;
+typedef __int64_t int64_t;
+# 157 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 178 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+typedef unsigned int u_int8_t __attribute__ ((__mode__ (__QI__)));
+typedef unsigned int u_int16_t __attribute__ ((__mode__ (__HI__)));
+typedef unsigned int u_int32_t __attribute__ ((__mode__ (__SI__)));
+typedef unsigned int u_int64_t __attribute__ ((__mode__ (__DI__)));
+typedef int register_t __attribute__ ((__mode__ (__word__)));
+# 194 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/endian.h" 1 3
+# 36 "/usr/arm-linux-gnueabi/include/endian.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/endian.h" 1 3
+# 37 "/usr/arm-linux-gnueabi/include/endian.h" 2 3
+# 60 "/usr/arm-linux-gnueabi/include/endian.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 1 3
+# 34 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/byteswap-16.h" 1 3
+# 35 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 2 3
+# 43 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 3
+static __inline unsigned int
+__bswap_32 (unsigned int __bsx)
+{
+  return __builtin_bswap32 (__bsx);
+}
+# 74 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 3
+static __inline __uint64_t
+__bswap_64 (__uint64_t __bsx)
+{
+  return __builtin_bswap64 (__bsx);
+}
+# 61 "/usr/arm-linux-gnueabi/include/endian.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/uintn-identity.h" 1 3
+# 32 "/usr/arm-linux-gnueabi/include/bits/uintn-identity.h" 3
+static __inline __uint16_t
+__uint16_identity (__uint16_t __x)
+{
+  return __x;
+}
+static __inline __uint32_t
+__uint32_identity (__uint32_t __x)
+{
+  return __x;
+}
+static __inline __uint64_t
+__uint64_identity (__uint64_t __x)
+{
+  return __x;
+}
+# 62 "/usr/arm-linux-gnueabi/include/endian.h" 2 3
+# 195 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/select.h" 1 3
+# 30 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/select.h" 1 3
+# 31 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/sigset_t.h" 1 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/__sigset_t.h" 1 3
+typedef struct
+{
+  unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
+} __sigset_t;
+# 5 "/usr/arm-linux-gnueabi/include/bits/types/sigset_t.h" 2 3
+typedef __sigset_t sigset_t;
+# 34 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/struct_timeval.h" 1 3
+struct timeval
+{
+  __time_t tv_sec;
+  __suseconds_t tv_usec;
+};
+# 38 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/struct_timespec.h" 1 3
+struct timespec
+{
+  __time_t tv_sec;
+  __syscall_slong_t tv_nsec;
+};
+# 40 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+typedef __suseconds_t suseconds_t;
+typedef long int __fd_mask;
+# 59 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+typedef struct
+  {
+    __fd_mask __fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
+  } fd_set;
+typedef __fd_mask fd_mask;
+# 91 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+# 101 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+extern int select (int __nfds, fd_set *__restrict __readfds,
+     fd_set *__restrict __writefds,
+     fd_set *__restrict __exceptfds,
+     struct timeval *__restrict __timeout);
+# 113 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+extern int pselect (int __nfds, fd_set *__restrict __readfds,
+      fd_set *__restrict __writefds,
+      fd_set *__restrict __exceptfds,
+      const struct timespec *__restrict __timeout,
+      const __sigset_t *__restrict __sigmask);
+# 126 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+# 198 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 1 3
+# 41 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/sysmacros.h" 1 3
+# 42 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 2 3
+# 71 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 3
+extern unsigned int gnu_dev_major (__dev_t __dev) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
+extern unsigned int gnu_dev_minor (__dev_t __dev) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
+extern __dev_t gnu_dev_makedev (unsigned int __major, unsigned int __minor) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
+# 85 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 3
+# 206 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef __blksize_t blksize_t;
+typedef __blkcnt_t blkcnt_t;
+typedef __fsblkcnt_t fsblkcnt_t;
+typedef __fsfilcnt_t fsfilcnt_t;
+# 254 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h" 1 3
+# 23 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 1 3
+# 77 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h" 1 3
+# 43 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h" 3
+struct __pthread_rwlock_arch_t
+{
+  unsigned int __readers;
+  unsigned int __writers;
+  unsigned int __wrphase_futex;
+  unsigned int __writers_futex;
+  unsigned int __pad3;
+  unsigned int __pad4;
+# 61 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h" 3
+  unsigned char __flags;
+  unsigned char __shared;
+  unsigned char __pad1;
+  unsigned char __pad2;
+  int __cur_writer;
+};
+# 78 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 2 3
+# 88 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 3
+typedef struct __pthread_internal_slist
+{
+  struct __pthread_internal_slist *__next;
+} __pthread_slist_t;
+# 118 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 3
+struct __pthread_mutex_s
+{
+  int __lock ;
+  unsigned int __count;
+  int __owner;
+  int __kind;
+ 
+  unsigned int __nusers;
+  __extension__ union
+  {
+    int __spins;
+    __pthread_slist_t __list;
+  };
+ 
+};
+struct __pthread_cond_s
+{
+  __extension__ union
+  {
+    __extension__ unsigned long long int __wseq;
+    struct
+    {
+      unsigned int __low;
+      unsigned int __high;
+    } __wseq32;
+  };
+  __extension__ union
+  {
+    __extension__ unsigned long long int __g1_start;
+    struct
+    {
+      unsigned int __low;
+      unsigned int __high;
+    } __g1_start32;
+  };
+  unsigned int __g_refs[2] ;
+  unsigned int __g_size[2];
+  unsigned int __g1_orig_size;
+  unsigned int __wrefs;
+  unsigned int __g_signals[2];
+};
+# 24 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h" 2 3
+typedef unsigned long int pthread_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_mutexattr_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_condattr_t;
+typedef unsigned int pthread_key_t;
+typedef int pthread_once_t;
+union pthread_attr_t
+{
+  char __size[36];
+  long int __align;
+};
+typedef union pthread_attr_t pthread_attr_t;
+typedef union
+{
+  struct __pthread_mutex_s __data;
+  char __size[24];
+  long int __align;
+} pthread_mutex_t;
+typedef union
+{
+  struct __pthread_cond_s __data;
+  char __size[48];
+  __extension__ long long int __align;
+} pthread_cond_t;
+typedef union
+{
+  struct __pthread_rwlock_arch_t __data;
+  char __size[32];
+  long int __align;
+} pthread_rwlock_t;
+typedef union
+{
+  char __size[8];
+  long int __align;
+} pthread_rwlockattr_t;
+typedef volatile int pthread_spinlock_t;
+typedef union
+{
+  char __size[20];
+  long int __align;
+} pthread_barrier_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_barrierattr_t;
+# 255 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 395 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+extern long int random (void) __attribute__ ((__nothrow__ , __leaf__));
+extern void srandom (unsigned int __seed) __attribute__ ((__nothrow__ , __leaf__));
+extern char *initstate (unsigned int __seed, char *__statebuf,
+   size_t __statelen) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
+extern char *setstate (char *__statebuf) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+struct random_data
+  {
+    int32_t *fptr;
+    int32_t *rptr;
+    int32_t *state;
+    int rand_type;
+    int rand_deg;
+    int rand_sep;
+    int32_t *end_ptr;
+  };
+extern int random_r (struct random_data *__restrict __buf,
+       int32_t *__restrict __result) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
+extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
+   size_t __statelen,
+   struct random_data *__restrict __buf)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2, 4)));
+extern int setstate_r (char *__restrict __statebuf,
+         struct random_data *__restrict __buf)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int rand (void) __attribute__ ((__nothrow__ , __leaf__));
+extern void srand (unsigned int __seed) __attribute__ ((__nothrow__ , __leaf__));
+extern int rand_r (unsigned int *__seed) __attribute__ ((__nothrow__ , __leaf__));
+extern double drand48 (void) __attribute__ ((__nothrow__ , __leaf__));
+extern double erand48 (unsigned short int __xsubi[3]) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern long int lrand48 (void) __attribute__ ((__nothrow__ , __leaf__));
+extern long int nrand48 (unsigned short int __xsubi[3])
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern long int mrand48 (void) __attribute__ ((__nothrow__ , __leaf__));
+extern long int jrand48 (unsigned short int __xsubi[3])
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern void srand48 (long int __seedval) __attribute__ ((__nothrow__ , __leaf__));
+extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern void lcong48 (unsigned short int __param[7]) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+struct drand48_data
+  {
+    unsigned short int __x[3];
+    unsigned short int __old_x[3];
+    unsigned short int __c;
+    unsigned short int __init;
+    __extension__ unsigned long long int __a;
+  };
+extern int drand48_r (struct drand48_data *__restrict __buffer,
+        double *__restrict __result) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int erand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        double *__restrict __result) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int lrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int nrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int mrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int jrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
+extern int seed48_r (unsigned short int __seed16v[3],
+       struct drand48_data *__buffer) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int lcong48_r (unsigned short int __param[7],
+        struct drand48_data *__buffer)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
+extern void *malloc (size_t __size) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
+extern void *calloc (size_t __nmemb, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
+extern void *realloc (void *__ptr, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__warn_unused_result__));
+# 563 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern void free (void *__ptr) __attribute__ ((__nothrow__ , __leaf__));
+# 1 "/usr/arm-linux-gnueabi/include/alloca.h" 1 3
+# 24 "/usr/arm-linux-gnueabi/include/alloca.h" 3
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 25 "/usr/arm-linux-gnueabi/include/alloca.h" 2 3
+extern void *alloca (size_t __size) __attribute__ ((__nothrow__ , __leaf__));
+# 567 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+extern void *valloc (size_t __size) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
+extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
+extern void *aligned_alloc (size_t __alignment, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (2))) ;
+extern void abort (void) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+extern int atexit (void (*__func) (void)) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int at_quick_exit (void (*__func) (void)) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern void exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+extern void quick_exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+extern void _Exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+extern char *getenv (const char *__name) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
+# 644 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int putenv (char *__string) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int setenv (const char *__name, const char *__value, int __replace)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
+extern int unsetenv (const char *__name) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+extern int clearenv (void) __attribute__ ((__nothrow__ , __leaf__));
+# 672 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *mktemp (char *__template) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 685 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 707 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
+# 728 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *mkdtemp (char *__template) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
+# 781 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int system (const char *__command) ;
+# 797 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *realpath (const char *__restrict __name,
+         char *__restrict __resolved) __attribute__ ((__nothrow__ , __leaf__)) ;
+typedef int (*__compar_fn_t) (const void *, const void *);
+# 817 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern void *bsearch (const void *__key, const void *__base,
+        size_t __nmemb, size_t __size, __compar_fn_t __compar)
+     __attribute__ ((__nonnull__ (1, 2, 5))) ;
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
+# 837 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int abs (int __x) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+extern long int labs (long int __x) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+__extension__ extern long long int llabs (long long int __x)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+extern div_t div (int __numer, int __denom)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+extern ldiv_t ldiv (long int __numer, long int __denom)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+__extension__ extern lldiv_t lldiv (long long int __numer,
+        long long int __denom)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+# 869 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *gcvt (double __value, int __ndigit, char *__buf)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3))) ;
+extern char *qecvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qfcvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3))) ;
+extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qecvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qfcvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int mblen (const char *__s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
+extern int mbtowc (wchar_t *__restrict __pwc,
+     const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
+extern int wctomb (char *__s, wchar_t __wchar) __attribute__ ((__nothrow__ , __leaf__));
+extern size_t mbstowcs (wchar_t *__restrict __pwcs,
+   const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
+extern size_t wcstombs (char *__restrict __s,
+   const wchar_t *__restrict __pwcs, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__));
+extern int rpmatch (const char *__response) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
+# 954 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int getsubopt (char **__restrict __optionp,
+        char *const *__restrict __tokens,
+        char **__restrict __valuep)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2, 3))) ;
+# 1006 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int getloadavg (double __loadavg[], int __nelem)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 1016 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/stdlib-float.h" 1 3
+# 1017 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1026 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 3 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.c" 2
+Preprocess stderr before filtering::
+Preprocess stderr after filtering::
+              Popping language C
+================================================================================
+TEST checkCUDACompiler from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:627)
+TESTING: checkCUDACompiler from config.setCompilers(config/BuildSystem/config/setCompilers.py:627)
+  Locate a functional CUDA compiler
+================================================================================
+TEST checkCUDAPreprocessor from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:667)
+TESTING: checkCUDAPreprocessor from config.setCompilers(config/BuildSystem/config/setCompilers.py:667)
+  Locate a functional CUDA preprocessor
+================================================================================
+TEST checkCxxCompiler from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:779)
+TESTING: checkCxxCompiler from config.setCompilers(config/BuildSystem/config/setCompilers.py:779)
+  Locate a functional Cxx compiler
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpicxx...found
+                Defined make macro "CXX" to "/store/software/opendihu/dependencies/mpi/install/bin/mpicxx"
+                Pushing language Cxx
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+                                                Pushing language C
+                                                Popping language C
+                                                Pushing language CUDA
+                                                Popping language CUDA
+                                                Pushing language Cxx
+                                                Popping language Cxx
+                                                Pushing language FC
+                                                Popping language FC
+                        Pushing language CXX
+                        Popping language CXX
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest    /tmp/petsc-BwhN3_/config.setCompilers/conftest.o 
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+                        Pushing language CXX
+                        Popping language CXX
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest    /tmp/petsc-BwhN3_/config.setCompilers/conftest.o  -lpetsc-ufod4vtr9mqHvKIQiVAm
+Possible ERROR while running linker: exit code 256
+stderr:
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/ld: cannot find -lpetsc-ufod4vtr9mqHvKIQiVAm
+collect2: error: ld returned 1 exit status
+                Popping language Cxx
+================================================================================
+TEST checkCxxPreprocessor from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:817)
+TESTING: checkCxxPreprocessor from config.setCompilers(config/BuildSystem/config/setCompilers.py:817)
+  Locate a functional Cxx preprocessor
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpicxx...found
+                Defined make macro "CXXCPP" to "/store/software/opendihu/dependencies/mpi/install/bin/mpicxx -E"
+              Pushing language Cxx
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -E  -I/tmp/petsc-BwhN3_/config.setCompilers   /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+stdout:
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.cc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/arm-linux-gnueabi/include/stdc-predef.h" 1 3
+# 1 "<command-line>" 2
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.cc"
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/confdefs.h" 1
+# 2 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.cc" 2
+# 1 "/tmp/petsc-BwhN3_/config.setCompilers/conffix.h" 1
+extern "C" {
+}
+# 3 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.cc" 2
+# 1 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 1 3
+# 39 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 3
+       
+# 40 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 3
+# 1 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 1 3
+# 229 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 3
+# 229 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 3
+namespace std
+{
+  typedef unsigned int size_t;
+  typedef int ptrdiff_t;
+  typedef decltype(nullptr) nullptr_t;
+}
+# 251 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 3
+namespace std
+{
+  inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
+}
+namespace __gnu_cxx
+{
+  inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
+}
+# 533 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/os_defines.h" 1 3
+# 39 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/os_defines.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/features.h" 1 3
+# 424 "/usr/arm-linux-gnueabi/include/features.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 1 3
+# 427 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/wordsize.h" 1 3
+# 428 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/long-double.h" 1 3
+# 429 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 2 3
+# 425 "/usr/arm-linux-gnueabi/include/features.h" 2 3
+# 448 "/usr/arm-linux-gnueabi/include/features.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/gnu/stubs.h" 1 3
+# 1 "/usr/arm-linux-gnueabi/include/gnu/stubs-soft.h" 1 3
+# 8 "/usr/arm-linux-gnueabi/include/gnu/stubs.h" 2 3
+# 449 "/usr/arm-linux-gnueabi/include/features.h" 2 3
+# 40 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/os_defines.h" 2 3
+# 534 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/cpu_defines.h" 1 3
+# 537 "/usr/arm-linux-gnueabi/include/c++/7/arm-linux-gnueabi/bits/c++config.h" 2 3
+# 42 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 2 3
+# 75 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 3
+# 1 "/usr/arm-linux-gnueabi/include/stdlib.h" 1 3
+# 25 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/libc-header-start.h" 1 3
+# 26 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 216 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 3 4
+typedef unsigned int size_t;
+# 32 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+extern "C" {
+# 1 "/usr/arm-linux-gnueabi/include/bits/waitflags.h" 1 3
+# 52 "/usr/arm-linux-gnueabi/include/bits/waitflags.h" 3
+typedef enum
+{
+  P_ALL,
+  P_PID,
+  P_PGID
+} idtype_t;
+# 40 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/waitstatus.h" 1 3
+# 41 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 55 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/floatn.h" 1 3
+# 52 "/usr/arm-linux-gnueabi/include/bits/floatn.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/floatn-common.h" 1 3
+# 207 "/usr/arm-linux-gnueabi/include/bits/floatn-common.h" 3
+typedef float _Float32;
+# 231 "/usr/arm-linux-gnueabi/include/bits/floatn-common.h" 3
+typedef long double _Float64;
+# 261 "/usr/arm-linux-gnueabi/include/bits/floatn-common.h" 3
+typedef double _Float32x;
+# 52 "/usr/arm-linux-gnueabi/include/bits/floatn.h" 2 3
+# 56 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+typedef struct
+  {
+    int quot;
+    int rem;
+  } div_t;
+typedef struct
+  {
+    long int quot;
+    long int rem;
+  } ldiv_t;
+__extension__ typedef struct
+  {
+    long long int quot;
+    long long int rem;
+  } lldiv_t;
+# 97 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern size_t __ctype_get_mb_cur_max (void) throw () ;
+extern double atof (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+extern int atoi (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+extern long int atol (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+__extension__ extern long long int atoll (const char *__nptr)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+extern double strtod (const char *__restrict __nptr,
+        char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+extern float strtof (const char *__restrict __nptr,
+       char **__restrict __endptr) throw () __attribute__ ((__nonnull__ (1)));
+extern long double strtold (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 140 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern _Float32 strtof32 (const char *__restrict __nptr,
+     char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+extern _Float64 strtof64 (const char *__restrict __nptr,
+     char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 158 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern _Float32x strtof32x (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 176 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern long int strtol (const char *__restrict __nptr,
+   char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+extern unsigned long int strtoul (const char *__restrict __nptr,
+      char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+__extension__
+extern long long int strtoq (const char *__restrict __nptr,
+        char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+__extension__
+extern unsigned long long int strtouq (const char *__restrict __nptr,
+           char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+__extension__
+extern long long int strtoll (const char *__restrict __nptr,
+         char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+__extension__
+extern unsigned long long int strtoull (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base)
+     throw () __attribute__ ((__nonnull__ (1)));
+extern int strfromd (char *__dest, size_t __size, const char *__format,
+       double __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int strfromf (char *__dest, size_t __size, const char *__format,
+       float __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int strfroml (char *__dest, size_t __size, const char *__format,
+       long double __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+# 232 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int strfromf32 (char *__dest, size_t __size, const char * __format,
+         _Float32 __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int strfromf64 (char *__dest, size_t __size, const char * __format,
+         _Float64 __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+# 250 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int strfromf32x (char *__dest, size_t __size, const char * __format,
+   _Float32x __f)
+     throw () __attribute__ ((__nonnull__ (3)));
+# 272 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/locale_t.h" 1 3
+# 22 "/usr/arm-linux-gnueabi/include/bits/types/locale_t.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/__locale_t.h" 1 3
+# 28 "/usr/arm-linux-gnueabi/include/bits/types/__locale_t.h" 3
+struct __locale_struct
+{
+  struct __locale_data *__locales[13];
+  const unsigned short int *__ctype_b;
+  const int *__ctype_tolower;
+  const int *__ctype_toupper;
+  const char *__names[13];
+};
+typedef struct __locale_struct *__locale_t;
+# 23 "/usr/arm-linux-gnueabi/include/bits/types/locale_t.h" 2 3
+typedef __locale_t locale_t;
+# 273 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+extern long int strtol_l (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base,
+     locale_t __loc) throw () __attribute__ ((__nonnull__ (1, 4)));
+extern unsigned long int strtoul_l (const char *__restrict __nptr,
+        char **__restrict __endptr,
+        int __base, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 4)));
+__extension__
+extern long long int strtoll_l (const char *__restrict __nptr,
+    char **__restrict __endptr, int __base,
+    locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 4)));
+__extension__
+extern unsigned long long int strtoull_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       int __base, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 4)));
+extern double strtod_l (const char *__restrict __nptr,
+   char **__restrict __endptr, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+extern float strtof_l (const char *__restrict __nptr,
+         char **__restrict __endptr, locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+extern long double strtold_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+# 316 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern _Float32 strtof32_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+extern _Float64 strtof64_l (const char *__restrict __nptr,
+       char **__restrict __endptr,
+       locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+# 337 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern _Float32x strtof32x_l (const char *__restrict __nptr,
+         char **__restrict __endptr,
+         locale_t __loc)
+     throw () __attribute__ ((__nonnull__ (1, 3)));
+# 385 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *l64a (long int __n) throw () ;
+extern long int a64l (const char *__s)
+     throw () __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+# 1 "/usr/arm-linux-gnueabi/include/sys/types.h" 1 3
+# 27 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+extern "C" {
+# 1 "/usr/arm-linux-gnueabi/include/bits/types.h" 1 3
+# 27 "/usr/arm-linux-gnueabi/include/bits/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/wordsize.h" 1 3
+# 28 "/usr/arm-linux-gnueabi/include/bits/types.h" 2 3
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+__extension__ typedef signed long long int __int64_t;
+__extension__ typedef unsigned long long int __uint64_t;
+__extension__ typedef long long int __quad_t;
+__extension__ typedef unsigned long long int __u_quad_t;
+__extension__ typedef long long int __intmax_t;
+__extension__ typedef unsigned long long int __uintmax_t;
+# 130 "/usr/arm-linux-gnueabi/include/bits/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/typesizes.h" 1 3
+# 131 "/usr/arm-linux-gnueabi/include/bits/types.h" 2 3
+__extension__ typedef __u_quad_t __dev_t;
+__extension__ typedef unsigned int __uid_t;
+__extension__ typedef unsigned int __gid_t;
+__extension__ typedef unsigned long int __ino_t;
+__extension__ typedef __u_quad_t __ino64_t;
+__extension__ typedef unsigned int __mode_t;
+__extension__ typedef unsigned int __nlink_t;
+__extension__ typedef long int __off_t;
+__extension__ typedef __quad_t __off64_t;
+__extension__ typedef int __pid_t;
+__extension__ typedef struct { int __val[2]; } __fsid_t;
+__extension__ typedef long int __clock_t;
+__extension__ typedef unsigned long int __rlim_t;
+__extension__ typedef __u_quad_t __rlim64_t;
+__extension__ typedef unsigned int __id_t;
+__extension__ typedef long int __time_t;
+__extension__ typedef unsigned int __useconds_t;
+__extension__ typedef long int __suseconds_t;
+__extension__ typedef int __daddr_t;
+__extension__ typedef int __key_t;
+__extension__ typedef int __clockid_t;
+__extension__ typedef void * __timer_t;
+__extension__ typedef long int __blksize_t;
+__extension__ typedef long int __blkcnt_t;
+__extension__ typedef __quad_t __blkcnt64_t;
+__extension__ typedef unsigned long int __fsblkcnt_t;
+__extension__ typedef __u_quad_t __fsblkcnt64_t;
+__extension__ typedef unsigned long int __fsfilcnt_t;
+__extension__ typedef __u_quad_t __fsfilcnt64_t;
+__extension__ typedef int __fsword_t;
+__extension__ typedef int __ssize_t;
+__extension__ typedef long int __syscall_slong_t;
+__extension__ typedef unsigned long int __syscall_ulong_t;
+typedef __off64_t __loff_t;
+typedef char *__caddr_t;
+__extension__ typedef int __intptr_t;
+__extension__ typedef unsigned int __socklen_t;
+typedef int __sig_atomic_t;
+# 30 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef __u_char u_char;
+typedef __u_short u_short;
+typedef __u_int u_int;
+typedef __u_long u_long;
+typedef __quad_t quad_t;
+typedef __u_quad_t u_quad_t;
+typedef __fsid_t fsid_t;
+typedef __loff_t loff_t;
+typedef __ino_t ino_t;
+typedef __ino64_t ino64_t;
+typedef __dev_t dev_t;
+typedef __gid_t gid_t;
+typedef __mode_t mode_t;
+typedef __nlink_t nlink_t;
+typedef __uid_t uid_t;
+typedef __off_t off_t;
+typedef __off64_t off64_t;
+typedef __pid_t pid_t;
+typedef __id_t id_t;
+typedef __ssize_t ssize_t;
+typedef __daddr_t daddr_t;
+typedef __caddr_t caddr_t;
+typedef __key_t key_t;
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/clock_t.h" 1 3
+typedef __clock_t clock_t;
+# 128 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/clockid_t.h" 1 3
+typedef __clockid_t clockid_t;
+# 130 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/time_t.h" 1 3
+typedef __time_t time_t;
+# 131 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/timer_t.h" 1 3
+typedef __timer_t timer_t;
+# 132 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef __useconds_t useconds_t;
+typedef __suseconds_t suseconds_t;
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 146 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef unsigned long int ulong;
+typedef unsigned short int ushort;
+typedef unsigned int uint;
+# 1 "/usr/arm-linux-gnueabi/include/bits/stdint-intn.h" 1 3
+# 24 "/usr/arm-linux-gnueabi/include/bits/stdint-intn.h" 3
+typedef __int8_t int8_t;
+typedef __int16_t int16_t;
+typedef __int32_t int32_t;
+typedef __int64_t int64_t;
+# 157 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 178 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+typedef unsigned int u_int8_t __attribute__ ((__mode__ (__QI__)));
+typedef unsigned int u_int16_t __attribute__ ((__mode__ (__HI__)));
+typedef unsigned int u_int32_t __attribute__ ((__mode__ (__SI__)));
+typedef unsigned int u_int64_t __attribute__ ((__mode__ (__DI__)));
+typedef int register_t __attribute__ ((__mode__ (__word__)));
+# 194 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/endian.h" 1 3
+# 36 "/usr/arm-linux-gnueabi/include/endian.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/endian.h" 1 3
+# 37 "/usr/arm-linux-gnueabi/include/endian.h" 2 3
+# 60 "/usr/arm-linux-gnueabi/include/endian.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 1 3
+# 34 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/byteswap-16.h" 1 3
+# 35 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 2 3
+# 43 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 3
+static __inline unsigned int
+__bswap_32 (unsigned int __bsx)
+{
+  return __builtin_bswap32 (__bsx);
+}
+# 74 "/usr/arm-linux-gnueabi/include/bits/byteswap.h" 3
+static __inline __uint64_t
+__bswap_64 (__uint64_t __bsx)
+{
+  return __builtin_bswap64 (__bsx);
+}
+# 61 "/usr/arm-linux-gnueabi/include/endian.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/uintn-identity.h" 1 3
+# 32 "/usr/arm-linux-gnueabi/include/bits/uintn-identity.h" 3
+static __inline __uint16_t
+__uint16_identity (__uint16_t __x)
+{
+  return __x;
+}
+static __inline __uint32_t
+__uint32_identity (__uint32_t __x)
+{
+  return __x;
+}
+static __inline __uint64_t
+__uint64_identity (__uint64_t __x)
+{
+  return __x;
+}
+# 62 "/usr/arm-linux-gnueabi/include/endian.h" 2 3
+# 195 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/select.h" 1 3
+# 30 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/select.h" 1 3
+# 31 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/sigset_t.h" 1 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/__sigset_t.h" 1 3
+typedef struct
+{
+  unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
+} __sigset_t;
+# 5 "/usr/arm-linux-gnueabi/include/bits/types/sigset_t.h" 2 3
+typedef __sigset_t sigset_t;
+# 34 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/struct_timeval.h" 1 3
+struct timeval
+{
+  __time_t tv_sec;
+  __suseconds_t tv_usec;
+};
+# 38 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/types/struct_timespec.h" 1 3
+struct timespec
+{
+  __time_t tv_sec;
+  __syscall_slong_t tv_nsec;
+};
+# 40 "/usr/arm-linux-gnueabi/include/sys/select.h" 2 3
+# 49 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+typedef long int __fd_mask;
+# 59 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+typedef struct
+  {
+    __fd_mask fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
+  } fd_set;
+typedef __fd_mask fd_mask;
+# 91 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+extern "C" {
+# 101 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+extern int select (int __nfds, fd_set *__restrict __readfds,
+     fd_set *__restrict __writefds,
+     fd_set *__restrict __exceptfds,
+     struct timeval *__restrict __timeout);
+# 113 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+extern int pselect (int __nfds, fd_set *__restrict __readfds,
+      fd_set *__restrict __writefds,
+      fd_set *__restrict __exceptfds,
+      const struct timespec *__restrict __timeout,
+      const __sigset_t *__restrict __sigmask);
+# 126 "/usr/arm-linux-gnueabi/include/sys/select.h" 3
+}
+# 198 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 1 3
+# 41 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/sysmacros.h" 1 3
+# 42 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 2 3
+# 71 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 3
+extern "C" {
+extern unsigned int gnu_dev_major (__dev_t __dev) throw () __attribute__ ((__const__));
+extern unsigned int gnu_dev_minor (__dev_t __dev) throw () __attribute__ ((__const__));
+extern __dev_t gnu_dev_makedev (unsigned int __major, unsigned int __minor) throw () __attribute__ ((__const__));
+# 85 "/usr/arm-linux-gnueabi/include/sys/sysmacros.h" 3
+}
+# 206 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+typedef __blksize_t blksize_t;
+typedef __blkcnt_t blkcnt_t;
+typedef __fsblkcnt_t fsblkcnt_t;
+typedef __fsfilcnt_t fsfilcnt_t;
+# 246 "/usr/arm-linux-gnueabi/include/sys/types.h" 3
+typedef __blkcnt64_t blkcnt64_t;
+typedef __fsblkcnt64_t fsblkcnt64_t;
+typedef __fsfilcnt64_t fsfilcnt64_t;
+# 1 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h" 1 3
+# 23 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 1 3
+# 77 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h" 1 3
+# 43 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h" 3
+struct __pthread_rwlock_arch_t
+{
+  unsigned int __readers;
+  unsigned int __writers;
+  unsigned int __wrphase_futex;
+  unsigned int __writers_futex;
+  unsigned int __pad3;
+  unsigned int __pad4;
+# 61 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h" 3
+  unsigned char __flags;
+  unsigned char __shared;
+  unsigned char __pad1;
+  unsigned char __pad2;
+  int __cur_writer;
+};
+# 78 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 2 3
+# 88 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 3
+typedef struct __pthread_internal_slist
+{
+  struct __pthread_internal_slist *__next;
+} __pthread_slist_t;
+# 118 "/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h" 3
+struct __pthread_mutex_s
+{
+  int __lock ;
+  unsigned int __count;
+  int __owner;
+  int __kind;
+ 
+  unsigned int __nusers;
+  __extension__ union
+  {
+    int __spins;
+    __pthread_slist_t __list;
+  };
+ 
+};
+struct __pthread_cond_s
+{
+  __extension__ union
+  {
+    __extension__ unsigned long long int __wseq;
+    struct
+    {
+      unsigned int __low;
+      unsigned int __high;
+    } __wseq32;
+  };
+  __extension__ union
+  {
+    __extension__ unsigned long long int __g1_start;
+    struct
+    {
+      unsigned int __low;
+      unsigned int __high;
+    } __g1_start32;
+  };
+  unsigned int __g_refs[2] ;
+  unsigned int __g_size[2];
+  unsigned int __g1_orig_size;
+  unsigned int __wrefs;
+  unsigned int __g_signals[2];
+};
+# 24 "/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h" 2 3
+typedef unsigned long int pthread_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_mutexattr_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_condattr_t;
+typedef unsigned int pthread_key_t;
+typedef int pthread_once_t;
+union pthread_attr_t
+{
+  char __size[36];
+  long int __align;
+};
+typedef union pthread_attr_t pthread_attr_t;
+typedef union
+{
+  struct __pthread_mutex_s __data;
+  char __size[24];
+  long int __align;
+} pthread_mutex_t;
+typedef union
+{
+  struct __pthread_cond_s __data;
+  char __size[48];
+  __extension__ long long int __align;
+} pthread_cond_t;
+typedef union
+{
+  struct __pthread_rwlock_arch_t __data;
+  char __size[32];
+  long int __align;
+} pthread_rwlock_t;
+typedef union
+{
+  char __size[8];
+  long int __align;
+} pthread_rwlockattr_t;
+typedef volatile int pthread_spinlock_t;
+typedef union
+{
+  char __size[20];
+  long int __align;
+} pthread_barrier_t;
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_barrierattr_t;
+# 255 "/usr/arm-linux-gnueabi/include/sys/types.h" 2 3
+}
+# 395 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+extern long int random (void) throw ();
+extern void srandom (unsigned int __seed) throw ();
+extern char *initstate (unsigned int __seed, char *__statebuf,
+   size_t __statelen) throw () __attribute__ ((__nonnull__ (2)));
+extern char *setstate (char *__statebuf) throw () __attribute__ ((__nonnull__ (1)));
+struct random_data
+  {
+    int32_t *fptr;
+    int32_t *rptr;
+    int32_t *state;
+    int rand_type;
+    int rand_deg;
+    int rand_sep;
+    int32_t *end_ptr;
+  };
+extern int random_r (struct random_data *__restrict __buf,
+       int32_t *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+     throw () __attribute__ ((__nonnull__ (2)));
+extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
+   size_t __statelen,
+   struct random_data *__restrict __buf)
+     throw () __attribute__ ((__nonnull__ (2, 4)));
+extern int setstate_r (char *__restrict __statebuf,
+         struct random_data *__restrict __buf)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int rand (void) throw ();
+extern void srand (unsigned int __seed) throw ();
+extern int rand_r (unsigned int *__seed) throw ();
+extern double drand48 (void) throw ();
+extern double erand48 (unsigned short int __xsubi[3]) throw () __attribute__ ((__nonnull__ (1)));
+extern long int lrand48 (void) throw ();
+extern long int nrand48 (unsigned short int __xsubi[3])
+     throw () __attribute__ ((__nonnull__ (1)));
+extern long int mrand48 (void) throw ();
+extern long int jrand48 (unsigned short int __xsubi[3])
+     throw () __attribute__ ((__nonnull__ (1)));
+extern void srand48 (long int __seedval) throw ();
+extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+     throw () __attribute__ ((__nonnull__ (1)));
+extern void lcong48 (unsigned short int __param[7]) throw () __attribute__ ((__nonnull__ (1)));
+struct drand48_data
+  {
+    unsigned short int __x[3];
+    unsigned short int __old_x[3];
+    unsigned short int __c;
+    unsigned short int __init;
+    __extension__ unsigned long long int __a;
+  };
+extern int drand48_r (struct drand48_data *__restrict __buffer,
+        double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int erand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        double *__restrict __result) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int lrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int nrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int mrand48_r (struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int jrand48_r (unsigned short int __xsubi[3],
+        struct drand48_data *__restrict __buffer,
+        long int *__restrict __result)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+     throw () __attribute__ ((__nonnull__ (2)));
+extern int seed48_r (unsigned short int __seed16v[3],
+       struct drand48_data *__buffer) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int lcong48_r (unsigned short int __param[7],
+        struct drand48_data *__buffer)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+extern void *malloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+extern void *calloc (size_t __nmemb, size_t __size)
+     throw () __attribute__ ((__malloc__)) ;
+extern void *realloc (void *__ptr, size_t __size)
+     throw () __attribute__ ((__warn_unused_result__));
+extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+     throw () __attribute__ ((__warn_unused_result__));
+extern void free (void *__ptr) throw ();
+# 1 "/usr/arm-linux-gnueabi/include/alloca.h" 1 3
+# 24 "/usr/arm-linux-gnueabi/include/alloca.h" 3
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 25 "/usr/arm-linux-gnueabi/include/alloca.h" 2 3
+extern "C" {
+extern void *alloca (size_t __size) throw ();
+}
+# 567 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+     throw () __attribute__ ((__nonnull__ (1))) ;
+extern void *aligned_alloc (size_t __alignment, size_t __size)
+     throw () __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (2))) ;
+extern void abort (void) throw () __attribute__ ((__noreturn__));
+extern int atexit (void (*__func) (void)) throw () __attribute__ ((__nonnull__ (1)));
+extern "C++" int at_quick_exit (void (*__func) (void))
+     throw () __asm ("at_quick_exit") __attribute__ ((__nonnull__ (1)));
+# 607 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+     throw () __attribute__ ((__nonnull__ (1)));
+extern void exit (int __status) throw () __attribute__ ((__noreturn__));
+extern void quick_exit (int __status) throw () __attribute__ ((__noreturn__));
+extern void _Exit (int __status) throw () __attribute__ ((__noreturn__));
+extern char *getenv (const char *__name) throw () __attribute__ ((__nonnull__ (1))) ;
+extern char *secure_getenv (const char *__name)
+     throw () __attribute__ ((__nonnull__ (1))) ;
+extern int putenv (char *__string) throw () __attribute__ ((__nonnull__ (1)));
+extern int setenv (const char *__name, const char *__value, int __replace)
+     throw () __attribute__ ((__nonnull__ (2)));
+extern int unsetenv (const char *__name) throw () __attribute__ ((__nonnull__ (1)));
+extern int clearenv (void) throw ();
+# 672 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *mktemp (char *__template) throw () __attribute__ ((__nonnull__ (1)));
+# 685 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 695 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkstemp64 (char *__template) __attribute__ ((__nonnull__ (1))) ;
+# 707 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
+# 717 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkstemps64 (char *__template, int __suffixlen)
+     __attribute__ ((__nonnull__ (1))) ;
+# 728 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *mkdtemp (char *__template) throw () __attribute__ ((__nonnull__ (1))) ;
+# 739 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkostemp (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
+# 749 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkostemp64 (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
+# 759 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkostemps (char *__template, int __suffixlen, int __flags)
+     __attribute__ ((__nonnull__ (1))) ;
+# 771 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int mkostemps64 (char *__template, int __suffixlen, int __flags)
+     __attribute__ ((__nonnull__ (1))) ;
+# 781 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int system (const char *__command) ;
+extern char *canonicalize_file_name (const char *__name)
+     throw () __attribute__ ((__nonnull__ (1))) ;
+# 797 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *realpath (const char *__restrict __name,
+         char *__restrict __resolved) throw () ;
+typedef int (*__compar_fn_t) (const void *, const void *);
+typedef __compar_fn_t comparison_fn_t;
+typedef int (*__compar_d_fn_t) (const void *, const void *, void *);
+extern void *bsearch (const void *__key, const void *__base,
+        size_t __nmemb, size_t __size, __compar_fn_t __compar)
+     __attribute__ ((__nonnull__ (1, 2, 5))) ;
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
+extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
+       __compar_d_fn_t __compar, void *__arg)
+  __attribute__ ((__nonnull__ (1, 4)));
+extern int abs (int __x) throw () __attribute__ ((__const__)) ;
+extern long int labs (long int __x) throw () __attribute__ ((__const__)) ;
+__extension__ extern long long int llabs (long long int __x)
+     throw () __attribute__ ((__const__)) ;
+extern div_t div (int __numer, int __denom)
+     throw () __attribute__ ((__const__)) ;
+extern ldiv_t ldiv (long int __numer, long int __denom)
+     throw () __attribute__ ((__const__)) ;
+__extension__ extern lldiv_t lldiv (long long int __numer,
+        long long int __denom)
+     throw () __attribute__ ((__const__)) ;
+# 869 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *gcvt (double __value, int __ndigit, char *__buf)
+     throw () __attribute__ ((__nonnull__ (3))) ;
+extern char *qecvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     throw () __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qfcvt (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign)
+     throw () __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+     throw () __attribute__ ((__nonnull__ (3))) ;
+extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
+     int *__restrict __sign, char *__restrict __buf,
+     size_t __len) throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qecvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qfcvt_r (long double __value, int __ndigit,
+      int *__restrict __decpt, int *__restrict __sign,
+      char *__restrict __buf, size_t __len)
+     throw () __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int mblen (const char *__s, size_t __n) throw ();
+extern int mbtowc (wchar_t *__restrict __pwc,
+     const char *__restrict __s, size_t __n) throw ();
+extern int wctomb (char *__s, wchar_t __wchar) throw ();
+extern size_t mbstowcs (wchar_t *__restrict __pwcs,
+   const char *__restrict __s, size_t __n) throw ();
+extern size_t wcstombs (char *__restrict __s,
+   const wchar_t *__restrict __pwcs, size_t __n)
+     throw ();
+extern int rpmatch (const char *__response) throw () __attribute__ ((__nonnull__ (1))) ;
+# 954 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+extern int getsubopt (char **__restrict __optionp,
+        char *const *__restrict __tokens,
+        char **__restrict __valuep)
+     throw () __attribute__ ((__nonnull__ (1, 2, 3))) ;
+extern void setkey (const char *__key) throw () __attribute__ ((__nonnull__ (1)));
+extern int posix_openpt (int __oflag) ;
+extern int grantpt (int __fd) throw ();
+extern int unlockpt (int __fd) throw ();
+extern char *ptsname (int __fd) throw () ;
+extern int ptsname_r (int __fd, char *__buf, size_t __buflen)
+     throw () __attribute__ ((__nonnull__ (2)));
+extern int getpt (void);
+extern int getloadavg (double __loadavg[], int __nelem)
+     throw () __attribute__ ((__nonnull__ (1)));
+# 1016 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/stdlib-float.h" 1 3
+# 1017 "/usr/arm-linux-gnueabi/include/stdlib.h" 2 3
+# 1026 "/usr/arm-linux-gnueabi/include/stdlib.h" 3
+}
+# 76 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/c++/7/bits/std_abs.h" 1 3
+# 33 "/usr/arm-linux-gnueabi/include/c++/7/bits/std_abs.h" 3
+       
+# 34 "/usr/arm-linux-gnueabi/include/c++/7/bits/std_abs.h" 3
+# 46 "/usr/arm-linux-gnueabi/include/c++/7/bits/std_abs.h" 3
+extern "C++"
+{
+namespace std __attribute__ ((__visibility__ ("default")))
+{
+  using ::abs;
+  inline long
+  abs(long __i) { return __builtin_labs(__i); }
+  inline long long
+  abs(long long __x) { return __builtin_llabs (__x); }
+  inline constexpr double
+  abs(double __x)
+  { return __builtin_fabs(__x); }
+  inline constexpr float
+  abs(float __x)
+  { return __builtin_fabsf(__x); }
+  inline constexpr long double
+  abs(long double __x)
+  { return __builtin_fabsl(__x); }
+# 106 "/usr/arm-linux-gnueabi/include/c++/7/bits/std_abs.h" 3
+}
+}
+# 78 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 2 3
+# 121 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 3
+extern "C++"
+{
+namespace std __attribute__ ((__visibility__ ("default")))
+{
+  using ::div_t;
+  using ::ldiv_t;
+  using ::abort;
+  using ::atexit;
+  using ::at_quick_exit;
+  using ::atof;
+  using ::atoi;
+  using ::atol;
+  using ::bsearch;
+  using ::calloc;
+  using ::div;
+  using ::exit;
+  using ::free;
+  using ::getenv;
+  using ::labs;
+  using ::ldiv;
+  using ::malloc;
+  using ::mblen;
+  using ::mbstowcs;
+  using ::mbtowc;
+  using ::qsort;
+  using ::quick_exit;
+  using ::rand;
+  using ::realloc;
+  using ::srand;
+  using ::strtod;
+  using ::strtol;
+  using ::strtoul;
+  using ::system;
+  using ::wcstombs;
+  using ::wctomb;
+  inline ldiv_t
+  div(long __i, long __j) { return ldiv(__i, __j); }
+}
+# 195 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 3
+namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
+{
+  using ::lldiv_t;
+  using ::_Exit;
+  using ::llabs;
+  inline lldiv_t
+  div(long long __n, long long __d)
+  { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
+  using ::lldiv;
+# 227 "/usr/arm-linux-gnueabi/include/c++/7/cstdlib" 3
+  using ::atoll;
+  using ::strtoll;
+  using ::strtoull;
+  using ::strtof;
+  using ::strtold;
+}
+namespace std
+{
+  using ::__gnu_cxx::lldiv_t;
+  using ::__gnu_cxx::_Exit;
+  using ::__gnu_cxx::llabs;
+  using ::__gnu_cxx::div;
+  using ::__gnu_cxx::lldiv;
+  using ::__gnu_cxx::atoll;
+  using ::__gnu_cxx::strtof;
+  using ::__gnu_cxx::strtoll;
+  using ::__gnu_cxx::strtoull;
+  using ::__gnu_cxx::strtold;
+}
+}
+# 3 "/tmp/petsc-BwhN3_/config.setCompilers/conftest.cc" 2
+Preprocess stderr before filtering::
+Preprocess stderr after filtering::
+              Popping language Cxx
+================================================================================
+TEST checkFortranCompiler from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:934)
+TESTING: checkFortranCompiler from config.setCompilers(config/BuildSystem/config/setCompilers.py:934)
+  Locate a functional Fortran compiler
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpif77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf95_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf90_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpxlf_r...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf90...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+Checking for program /store/software/opendihu/dependencies/mpi/install/bin/mpf77...not found
+================================================================================
+TEST checkLargeFileIO from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1072)
+TESTING: checkLargeFileIO from config.setCompilers(config/BuildSystem/config/setCompilers.py:1072)
+================================================================================
+TEST checkArchiver from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1171)
+TESTING: checkArchiver from config.setCompilers(config/BuildSystem/config/setCompilers.py:1171)
+  Check that the archiver exists and can make a library usable by the compiler
+              Pushing language C
+Executing: arm-linux-gnueabi-ar -V
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+Executing: arm-linux-gnueabi-ar -V
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+                  Defined make macro "FAST_AR_FLAGS" to "Scq"
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+int foo(int a) {
+  return a+1;
+}
+
+Checking for program /home/maierbn/bin/arm-linux-gnueabi-ar...not found
+Checking for program /home/maierbn/.local/bin/arm-linux-gnueabi-ar...not found
+Checking for program /store/wiss/organisation/timekeeping/arm-linux-gnueabi-ar...not found
+Checking for program /usr/local/sbin/arm-linux-gnueabi-ar...not found
+Checking for program /usr/local/bin/arm-linux-gnueabi-ar...not found
+Checking for program /usr/sbin/arm-linux-gnueabi-ar...not found
+Checking for program /usr/bin/arm-linux-gnueabi-ar...found
+                Defined make macro "AR" to "/usr/bin/arm-linux-gnueabi-ar"
+Checking for program /home/maierbn/bin/ranlib...not found
+Checking for program /home/maierbn/.local/bin/ranlib...not found
+Checking for program /store/wiss/organisation/timekeeping/ranlib...not found
+Checking for program /usr/local/sbin/ranlib...not found
+Checking for program /usr/local/bin/ranlib...not found
+Checking for program /usr/sbin/ranlib...not found
+Checking for program /usr/bin/ranlib...found
+                Defined make macro "RANLIB" to "/usr/bin/ranlib"
+Executing: /usr/bin/arm-linux-gnueabi-ar cr /tmp/petsc-BwhN3_/config.setCompilers/libconf1.a /tmp/petsc-BwhN3_/config.setCompilers/conf1.o
+Executing: /usr/bin/ranlib /tmp/petsc-BwhN3_/config.setCompilers/libconf1.a
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+extern int foo(int);
+
+int main() {
+  int b = foo(1);  if (b);
+;
+  return 0;
+}
+                      Pushing language C
+                      Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest    /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -L/tmp/petsc-BwhN3_/config.setCompilers -lconf1 
+              Defined make macro "AR_FLAGS" to "cr"
+              Defined make macro "AR_LIB_SUFFIX" to "a"
+              Popping language C
+================================================================================
+TEST checkSharedLinker from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1280)
+TESTING: checkSharedLinker from config.setCompilers(config/BuildSystem/config/setCompilers.py:1280)
+  Check that the linker can produce shared libraries
+                                        Pushing language C
+                                        Popping language C
+                                        Pushing language CUDA
+                                        Popping language CUDA
+                                        Pushing language Cxx
+                                        Popping language Cxx
+                                        Pushing language FC
+                                        Popping language FC
+            Checking shared linker /usr/bin/arm-linux-gnueabi-ar using flags []
+Checking for program /usr/bin/arm-linux-gnueabi-ar...found
+                Defined make macro "LD_SHARED" to "/usr/bin/arm-linux-gnueabi-ar"
+            Trying C compiler flag 
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers     /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag 
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers    /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+#include <stdio.h>
+int foo(void) {fprintf(stdout,"hello");
+return 0;}
+                        Pushing language C
+                        Popping language C
+Executing: /usr/bin/arm-linux-gnueabi-ar  cr /tmp/petsc-BwhN3_/config.setCompilers/libconftest.a  /tmp/petsc-BwhN3_/config.setCompilers/conftest.o ; /usr/bin/ranlib /tmp/petsc-BwhN3_/config.setCompilers/libconftest.a
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers    /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+int foo(void);
+
+int main() {
+int ret = foo();
+if(ret);;
+  return 0;
+}
+                      Pushing language C
+                      Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest     /tmp/petsc-BwhN3_/config.setCompilers/conftest.o  -L/tmp/petsc-BwhN3_/config.setCompilers -lconftest
+            Using shared linker /usr/bin/arm-linux-gnueabi-ar with flags [] and library extension a
+Executing: uname -s
+stdout: Linux
+================================================================================
+TEST checkPIC from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1031)
+TESTING: checkPIC from config.setCompilers(config/BuildSystem/config/setCompilers.py:1031)
+  Determine the PIC option for each compiler
+            Skip checking PIC options on user request
+================================================================================
+TEST checkSharedLinkerPaths from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1369)
+TESTING: checkSharedLinkerPaths from config.setCompilers(config/BuildSystem/config/setCompilers.py:1369)
+  Determine the shared linker path options
+       - IRIX: -rpath
+       - Linux, OSF: -Wl,-rpath,
+       - Solaris: -R
+       - FreeBSD: -Wl,-R,
+              Pushing language C
+Executing: uname -s
+stdout: Linux
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -V
+            Trying C linker flag -Wl,-rpath,
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers    /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+                      Pushing language C
+                      Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest  -Wl,-rpath,/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6    /tmp/petsc-BwhN3_/config.setCompilers/conftest.o 
+              Valid C linker flag -Wl,-rpath,/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6
+              Popping language C
+              Pushing language Cxx
+Executing: uname -s
+stdout: Linux
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -V
+            Trying Cxx linker flag -Wl,-rpath,
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+                      Pushing language CXX
+                      Popping language CXX
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest  -Wl,-rpath,/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6   /tmp/petsc-BwhN3_/config.setCompilers/conftest.o 
+              Valid Cxx linker flag -Wl,-rpath,/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6
+              Popping language Cxx
+================================================================================
+TEST checkLibC from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1404)
+TESTING: checkLibC from config.setCompilers(config/BuildSystem/config/setCompilers.py:1404)
+  Test whether we need to explicitly include libc in shared linking
+       - Mac OSX requires an explicit reference to libc for shared linking
+================================================================================
+TEST checkDynamicLinker from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1453)
+TESTING: checkDynamicLinker from config.setCompilers(config/BuildSystem/config/setCompilers.py:1453)
+  Check that the linker can dynamicaly load shared libraries
+Checking for header: dlfcn.h
+                          All intermediate test results are stored in /tmp/petsc-BwhN3_/config.headers
+Executing: arm-linux-gnueabi-cpp  -I/tmp/petsc-BwhN3_/config.setCompilers -I/tmp/petsc-BwhN3_/config.headers  /tmp/petsc-BwhN3_/config.headers/conftest.c 
+stdout:
+# 1 "/tmp/petsc-BwhN3_/config.headers/conftest.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 31 "<command-line>"
+# 1 "/usr/arm-linux-gnueabi/include/stdc-predef.h" 1 3
+# 32 "<command-line>" 2
+# 1 "/tmp/petsc-BwhN3_/config.headers/conftest.c"
+# 1 "/tmp/petsc-BwhN3_/config.headers/confdefs.h" 1
+# 2 "/tmp/petsc-BwhN3_/config.headers/conftest.c" 2
+# 1 "/tmp/petsc-BwhN3_/config.headers/conffix.h" 1
+# 3 "/tmp/petsc-BwhN3_/config.headers/conftest.c" 2
+# 1 "/usr/arm-linux-gnueabi/include/dlfcn.h" 1 3
+# 22 "/usr/arm-linux-gnueabi/include/dlfcn.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/features.h" 1 3
+# 424 "/usr/arm-linux-gnueabi/include/features.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 1 3
+# 427 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/wordsize.h" 1 3
+# 428 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/long-double.h" 1 3
+# 429 "/usr/arm-linux-gnueabi/include/sys/cdefs.h" 2 3
+# 425 "/usr/arm-linux-gnueabi/include/features.h" 2 3
+# 448 "/usr/arm-linux-gnueabi/include/features.h" 3
+# 1 "/usr/arm-linux-gnueabi/include/gnu/stubs.h" 1 3
+# 1 "/usr/arm-linux-gnueabi/include/gnu/stubs-soft.h" 1 3
+# 8 "/usr/arm-linux-gnueabi/include/gnu/stubs.h" 2 3
+# 449 "/usr/arm-linux-gnueabi/include/features.h" 2 3
+# 23 "/usr/arm-linux-gnueabi/include/dlfcn.h" 2 3
+# 1 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 1 3 4
+# 216 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 3 4
+# 216 "/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h" 3 4
+typedef unsigned int size_t;
+# 25 "/usr/arm-linux-gnueabi/include/dlfcn.h" 2 3
+# 1 "/usr/arm-linux-gnueabi/include/bits/dlfcn.h" 1 3
+# 28 "/usr/arm-linux-gnueabi/include/dlfcn.h" 2 3
+# 52 "/usr/arm-linux-gnueabi/include/dlfcn.h" 3
+extern void *dlopen (const char *__file, int __mode) __attribute__ ((__nothrow__));
+extern int dlclose (void *__handle) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+extern void *dlsym (void *__restrict __handle,
+      const char *__restrict __name) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
+# 82 "/usr/arm-linux-gnueabi/include/dlfcn.h" 3
+extern char *dlerror (void) __attribute__ ((__nothrow__ , __leaf__));
+# 188 "/usr/arm-linux-gnueabi/include/dlfcn.h" 3
+# 3 "/tmp/petsc-BwhN3_/config.headers/conftest.c" 2
+Preprocess stderr before filtering::
+Preprocess stderr after filtering::
+                Defined "HAVE_DLFCN_H" to "1"
+                Checking for functions [dlopen dlsym dlclose] in library ['dl'] []
+                  Pushing language C
+                              All intermediate test results are stored in /tmp/petsc-BwhN3_/config.libraries
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.libraries/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers    /tmp/petsc-BwhN3_/config.libraries/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+/* Override any gcc2 internal prototype to avoid an error. */
+char dlopen();
+static void _check_dlopen() { dlopen(); }
+char dlsym();
+static void _check_dlsym() { dlsym(); }
+char dlclose();
+static void _check_dlclose() { dlclose(); }
+
+int main() {
+_check_dlopen();
+_check_dlsym();
+_check_dlclose();;
+  return 0;
+}
+                          Pushing language C
+                          Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.libraries/conftest     /tmp/petsc-BwhN3_/config.libraries/conftest.o  -ldl 
+                  Defined "HAVE_LIBDL" to "1"
+                  Popping language C
+              Adding ['dl'] to LIBS
+Executing: uname -s
+stdout: Linux
+            Checking dynamic linker /usr/bin/arm-linux-gnueabi-ar using flags []
+Checking for program /usr/bin/arm-linux-gnueabi-ar...found
+                Defined make macro "DYNAMICLINKER" to "/usr/bin/arm-linux-gnueabi-ar"
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers    /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+#include <stdio.h>
+int foo(void) {printf("test");return 0;}
+                                              Pushing language C
+                                              Popping language C
+                                              Pushing language CUDA
+                                              Popping language CUDA
+                                              Pushing language Cxx
+                                              Popping language Cxx
+                                              Pushing language FC
+                                              Popping language FC
+                      Pushing language C
+                      Popping language C
+Executing: /usr/bin/arm-linux-gnueabi-ar  -o /tmp/petsc-BwhN3_/config.setCompilers/libconftest.so   /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -ldl 
+Possible ERROR while running linker:
+stderr:
+/usr/bin/arm-linux-gnueabi-ar: creating /tmp/petsc-BwhN3_/config.setCompilers/libconftest.so
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers    /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Possible ERROR while running compiler:
+stderr:
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c: In function ‘main’:
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:11:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   printf("Could not load symbol\n");
+   ^~~~~~
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:11:3: warning: incompatible implicit declaration of built-in function ‘printf’
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:11:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:15:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("Invalid return from foo()\n");
+   ^~~~~~
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:15:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:19:3: warning: incompatible implicit declaration of built-in function ‘printf’
+   printf("Could not close library\n");
+   ^~~~~~
+/tmp/petsc-BwhN3_/config.setCompilers/conftest.c:19:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+#include<dlfcn.h>
+
+int main() {
+
+void *handle = dlopen("/tmp/petsc-BwhN3_/config.setCompilers/libconftest.so", 0);
+int (*foo)(void) = (int (*)(void)) dlsym(handle, "foo");
+
+if (!foo) {
+  printf("Could not load symbol\n");
+  return -1;
+}
+if ((*foo)()) {
+  printf("Invalid return from foo()\n");
+  return -1;
+}
+if (dlclose(handle)) {
+  printf("Could not close library\n");
+  return -1;
+}
+;
+  return 0;
+}
+                      Pushing language C
+                      Popping language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc  -o /tmp/petsc-BwhN3_/config.setCompilers/conftest     /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -ldl 
+            Using dynamic linker /usr/bin/arm-linux-gnueabi-ar with flags [] and library extension so
+================================================================================
+TEST output from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1505)
+TESTING: output from config.setCompilers(config/BuildSystem/config/setCompilers.py:1505)
+  Output module data as defines and substitutions
+              Substituting "CC" with "/store/software/opendihu/dependencies/mpi/install/bin/mpicc"
+              Substituting "CFLAGS" with " "
+              Defined make macro "CC_LINKER_SLFLAG" to "-Wl,-rpath,"
+              Substituting "CPP" with "arm-linux-gnueabi-cpp"
+              Substituting "CPPFLAGS" with ""
+              Substituting "CXX" with "/store/software/opendihu/dependencies/mpi/install/bin/mpicxx"
+              Substituting "CXX_CXXFLAGS" with ""
+              Substituting "CXXFLAGS" with ""
+              Substituting "CXX_LINKER_SLFLAG" with "-Wl,-rpath,"
+              Substituting "CXXCPP" with "/store/software/opendihu/dependencies/mpi/install/bin/mpicxx -E"
+              Substituting "CXXCPPFLAGS" with ""
+              Substituting "FC" with ""
+              Substituting "LDFLAGS" with ""
+              Substituting "LIBS" with "-ldl "
+              Substituting "SHARED_LIBRARY_FLAG" with ""
+================================================================================
+TEST configureIndexSize from PETSc.options.indexTypes(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/indexTypes.py:31)
+TESTING: configureIndexSize from PETSc.options.indexTypes(config/PETSc/options/indexTypes.py:31)
+              Defined make macro "PETSC_INDEX_SIZE" to "32"
+================================================================================
+TEST checkSharedDynamicPicOptions from PETSc.options.sharedLibraries(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/sharedLibraries.py:37)
+TESTING: checkSharedDynamicPicOptions from PETSc.options.sharedLibraries(config/PETSc/options/sharedLibraries.py:37)
+================================================================================
+TEST configureSharedLibraries from PETSc.options.sharedLibraries(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/sharedLibraries.py:53)
+TESTING: configureSharedLibraries from PETSc.options.sharedLibraries(config/PETSc/options/sharedLibraries.py:53)
+  Checks whether shared libraries should be used, for which you must
+      - Specify --with-shared-libraries
+      - Have found a working shared linker
+    Defines PETSC_USE_SHARED_LIBRARIES if they are used
+              Defined make rule "shared_arch" with dependencies "" and code []
+              Defined make macro "BUILDSHAREDLIB" to "no"
+              Defined "HAVE_SHARED_LIBRARIES" to "1"
+            Shared libraries - disabled
+================================================================================
+TEST configureDynamicLibraries from PETSc.options.sharedLibraries(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/sharedLibraries.py:96)
+TESTING: configureDynamicLibraries from PETSc.options.sharedLibraries(config/PETSc/options/sharedLibraries.py:96)
+  Checks whether dynamic loading is available (with dlfcn.h and libdl)
+              Defined "HAVE_DYNAMIC_LIBRARIES" to "1"
+================================================================================
+TEST configureSerializedFunctions from PETSc.options.sharedLibraries(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/sharedLibraries.py:102)
+TESTING: configureSerializedFunctions from PETSc.options.sharedLibraries(config/PETSc/options/sharedLibraries.py:102)
+  
+    Defines PETSC_SERIALIZE_FUNCTIONS if they are used
+    Requires shared libraries
+================================================================================
+TEST configureCompilerFlags from config.compilerFlags(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/compilerFlags.py:72)
+TESTING: configureCompilerFlags from config.compilerFlags(config/BuildSystem/config/compilerFlags.py:72)
+  Get the default compiler flags
+                  Defined make macro "MPICC_SHOW" to "arm-linux-gnueabi-gcc -I/store/software/opendihu/dependencies/mpi/install/include -L/store/software/opendihu/dependencies/mpi/install/lib -lmpich -lopa -lmpl -lrt -lpthread"
+            Trying C compiler flag -Wall
+            Trying C compiler flag -Wwrite-strings
+            Trying C compiler flag -Wno-strict-aliasing
+            Trying C compiler flag -Wno-unknown-pragmas
+            Trying C compiler flag -fvisibility=hidden
+            Trying C compiler flag -O3
+                  Defined make macro "MPICXX_SHOW" to "arm-linux-gnueabi-gcc -I/store/software/opendihu/dependencies/mpi/install/include -L/store/software/opendihu/dependencies/mpi/install/lib -lmpichcxx -lmpich -lopa -lmpl -lrt -lpthread"
+            Trying Cxx compiler flag -Wall
+            Trying Cxx compiler flag -Wwrite-strings
+            Trying Cxx compiler flag -Wno-strict-aliasing
+            Trying Cxx compiler flag -Wno-unknown-pragmas
+            Trying Cxx compiler flag -fvisibility=hidden
+            Trying Cxx compiler flag -O3
+              Pushing language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag -Wall
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall -Wwrite-strings   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag -Wwrite-strings
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall -Wwrite-strings -Wno-strict-aliasing   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag -Wno-strict-aliasing
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag -Wno-unknown-pragmas
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag -fvisibility=hidden
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden -O3   /tmp/petsc-BwhN3_/config.setCompilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added C compiler flag -O3
+              Popping language C
+              Pushing language Cxx
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers  -Wall     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added Cxx compiler flag -Wall
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers  -Wall -Wwrite-strings     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added Cxx compiler flag -Wwrite-strings
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers  -Wall -Wwrite-strings -Wno-strict-aliasing     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added Cxx compiler flag -Wno-strict-aliasing
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers  -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added Cxx compiler flag -Wno-unknown-pragmas
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers  -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added Cxx compiler flag -fvisibility=hidden
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -c -o /tmp/petsc-BwhN3_/config.setCompilers/conftest.o -I/tmp/petsc-BwhN3_/config.setCompilers  -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden -O3     /tmp/petsc-BwhN3_/config.setCompilers/conftest.cc 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+;
+  return 0;
+}
+Added Cxx compiler flag -O3
+              Popping language Cxx
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc --version
+stdout:
+arm-linux-gnueabi-gcc (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 7.3.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+getCompilerVersion: /store/software/opendihu/dependencies/mpi/install/bin/mpicc arm-linux-gnueabi-gcc (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 7.3.0
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -show
+stdout: arm-linux-gnueabi-gcc -I/store/software/opendihu/dependencies/mpi/install/include -L/store/software/opendihu/dependencies/mpi/install/lib -lmpich -lopa -lmpl -lrt -lpthread
+Executing: arm-linux-gnueabi-gcc --help
+stdout:
+Usage: arm-linux-gnueabi-gcc [options] file...
+Options:
+  -pass-exit-codes         Exit with highest error code from a phase.
+  --help                   Display this information.
+  --target-help            Display target specific command line options.
+  --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...].
+                           Display specific types of command line options.
+  (Use '-v --help' to display command line options of sub-processes).
+  --version                Display compiler version information.
+  -dumpspecs               Display all of the built in spec strings.
+  -dumpversion             Display the version of the compiler.
+  -dumpmachine             Display the compiler's target processor.
+  -print-search-dirs       Display the directories in the compiler's search path.
+  -print-libgcc-file-name  Display the name of the compiler's companion library.
+  -print-file-name=<lib>   Display the full path to library <lib>.
+  -print-prog-name=<prog>  Display the full path to compiler component <prog>.
+  -print-multiarch         Display the target's normalized GNU triplet, used as
+                           a component in the library path.
+  -print-multi-directory   Display the root directory for versions of libgcc.
+  -print-multi-lib         Display the mapping between command line options and
+                           multiple library search directories.
+  -print-multi-os-directory Display the relative path to OS libraries.
+  -print-sysroot           Display the target libraries directory.
+  -print-sysroot-headers-suffix Display the sysroot suffix used to find headers.
+  -Wa,<options>            Pass comma-separated <options> on to the assembler.
+  -Wp,<options>            Pass comma-separated <options> on to the preprocessor.
+  -Wl,<options>            Pass comma-separated <options> on to the linker.
+  -Xassembler <arg>        Pass <arg> on to the assembler.
+  -Xpreprocessor <arg>     Pass <arg> on to the preprocessor.
+  -Xlinker <arg>           Pass <arg> on to the linker.
+  -save-temps              Do not delete intermediate files.
+  -save-temps=<arg>        Do not delete intermediate files.
+  -no-canonical-prefixes   Do not canonicalize paths when building relative
+                           prefixes to other gcc components.
+  -pipe                    Use pipes rather than intermediate files.
+  -time                    Time the execution of each subprocess.
+  -specs=<file>            Override built-in specs with the contents of <file>.
+  -std=<standard>          Assume that the input sources are for <standard>.
+  --sysroot=<directory>    Use <directory> as the root directory for headers
+                           and libraries.
+  -B <directory>           Add <directory> to the compiler's search paths.
+  -v                       Display the programs invoked by the compiler.
+  -###                     Like -v but options quoted and commands not executed.
+  -E                       Preprocess only; do not compile, assemble or link.
+  -S                       Compile only; do not assemble or link.
+  -c                       Compile and assemble, but do not link.
+  -o <file>                Place the output into <file>.
+  -pie                     Create a position independent executable.
+  -shared                  Create a shared library.
+  -x <language>            Specify the language of the following input files.
+                           Permissible languages include: c c++ assembler none
+                           'none' means revert to the default behavior of
+                           guessing the language based on the file's extension.
+Options starting with -g, -f, -m, -O, -W, or --param are automatically
+ passed on to the various sub-processes invoked by arm-linux-gnueabi-gcc.  In order to pass
+ other options on to these processes the -W<letter> options must be used.
+For bug reporting instructions, please see:
+<file:///usr/share/doc/gcc-7/README.Bugs>.
+Executing: arm-linux-gnueabi-gcc --help
+stdout:
+Usage: arm-linux-gnueabi-gcc [options] file...
+Options:
+  -pass-exit-codes         Exit with highest error code from a phase.
+  --help                   Display this information.
+  --target-help            Display target specific command line options.
+  --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...].
+                           Display specific types of command line options.
+  (Use '-v --help' to display command line options of sub-processes).
+  --version                Display compiler version information.
+  -dumpspecs               Display all of the built in spec strings.
+  -dumpversion             Display the version of the compiler.
+  -dumpmachine             Display the compiler's target processor.
+  -print-search-dirs       Display the directories in the compiler's search path.
+  -print-libgcc-file-name  Display the name of the compiler's companion library.
+  -print-file-name=<lib>   Display the full path to library <lib>.
+  -print-prog-name=<prog>  Display the full path to compiler component <prog>.
+  -print-multiarch         Display the target's normalized GNU triplet, used as
+                           a component in the library path.
+  -print-multi-directory   Display the root directory for versions of libgcc.
+  -print-multi-lib         Display the mapping between command line options and
+                           multiple library search directories.
+  -print-multi-os-directory Display the relative path to OS libraries.
+  -print-sysroot           Display the target libraries directory.
+  -print-sysroot-headers-suffix Display the sysroot suffix used to find headers.
+  -Wa,<options>            Pass comma-separated <options> on to the assembler.
+  -Wp,<options>            Pass comma-separated <options> on to the preprocessor.
+  -Wl,<options>            Pass comma-separated <options> on to the linker.
+  -Xassembler <arg>        Pass <arg> on to the assembler.
+  -Xpreprocessor <arg>     Pass <arg> on to the preprocessor.
+  -Xlinker <arg>           Pass <arg> on to the linker.
+  -save-temps              Do not delete intermediate files.
+  -save-temps=<arg>        Do not delete intermediate files.
+  -no-canonical-prefixes   Do not canonicalize paths when building relative
+                           prefixes to other gcc components.
+  -pipe                    Use pipes rather than intermediate files.
+  -time                    Time the execution of each subprocess.
+  -specs=<file>            Override built-in specs with the contents of <file>.
+  -std=<standard>          Assume that the input sources are for <standard>.
+  --sysroot=<directory>    Use <directory> as the root directory for headers
+                           and libraries.
+  -B <directory>           Add <directory> to the compiler's search paths.
+  -v                       Display the programs invoked by the compiler.
+  -###                     Like -v but options quoted and commands not executed.
+  -E                       Preprocess only; do not compile, assemble or link.
+  -S                       Compile only; do not assemble or link.
+  -c                       Compile and assemble, but do not link.
+  -o <file>                Place the output into <file>.
+  -pie                     Create a position independent executable.
+  -shared                  Create a shared library.
+  -x <language>            Specify the language of the following input files.
+                           Permissible languages include: c c++ assembler none
+                           'none' means revert to the default behavior of
+                           guessing the language based on the file's extension.
+Options starting with -g, -f, -m, -O, -W, or --param are automatically
+ passed on to the various sub-processes invoked by arm-linux-gnueabi-gcc.  In order to pass
+ other options on to these processes the -W<letter> options must be used.
+For bug reporting instructions, please see:
+<file:///usr/share/doc/gcc-7/README.Bugs>.
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx --version
+stdout:
+arm-linux-gnueabi-gcc (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 7.3.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+getCompilerVersion: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx arm-linux-gnueabi-gcc (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 7.3.0
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicxx -show
+stdout: arm-linux-gnueabi-gcc -I/store/software/opendihu/dependencies/mpi/install/include -L/store/software/opendihu/dependencies/mpi/install/lib -lmpichcxx -lmpich -lopa -lmpl -lrt -lpthread
+================================================================================
+TEST configureDebugging from PETSc.options.debugging(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/debugging.py:25)
+TESTING: configureDebugging from PETSc.options.debugging(config/PETSc/options/debugging.py:25)
+              Defined "USE_ERRORCHECKING" to "1"
+                ===============================================================================
+                              WARNING! Compiling PETSc with no debugging, this should 
+                                    only be done for timing and production runs. All development should 
+                                    be done when configured using --with-debugging=1
+                ===============================================================================
+              
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc --help
+stdout:
+Usage: arm-linux-gnueabi-gcc [options] file...
+Options:
+  -pass-exit-codes         Exit with highest error code from a phase.
+  --help                   Display this information.
+  --target-help            Display target specific command line options.
+  --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...].
+                           Display specific types of command line options.
+  (Use '-v --help' to display command line options of sub-processes).
+  --version                Display compiler version information.
+  -dumpspecs               Display all of the built in spec strings.
+  -dumpversion             Display the version of the compiler.
+  -dumpmachine             Display the compiler's target processor.
+  -print-search-dirs       Display the directories in the compiler's search path.
+  -print-libgcc-file-name  Display the name of the compiler's companion library.
+  -print-file-name=<lib>   Display the full path to library <lib>.
+  -print-prog-name=<prog>  Display the full path to compiler component <prog>.
+  -print-multiarch         Display the target's normalized GNU triplet, used as
+                           a component in the library path.
+  -print-multi-directory   Display the root directory for versions of libgcc.
+  -print-multi-lib         Display the mapping between command line options and
+                           multiple library search directories.
+  -print-multi-os-directory Display the relative path to OS libraries.
+  -print-sysroot           Display the target libraries directory.
+  -print-sysroot-headers-suffix Display the sysroot suffix used to find headers.
+  -Wa,<options>            Pass comma-separated <options> on to the assembler.
+  -Wp,<options>            Pass comma-separated <options> on to the preprocessor.
+  -Wl,<options>            Pass comma-separated <options> on to the linker.
+  -Xassembler <arg>        Pass <arg> on to the assembler.
+  -Xpreprocessor <arg>     Pass <arg> on to the preprocessor.
+  -Xlinker <arg>           Pass <arg> on to the linker.
+  -save-temps              Do not delete intermediate files.
+  -save-temps=<arg>        Do not delete intermediate files.
+  -no-canonical-prefixes   Do not canonicalize paths when building relative
+                           prefixes to other gcc components.
+  -pipe                    Use pipes rather than intermediate files.
+  -time                    Time the execution of each subprocess.
+  -specs=<file>            Override built-in specs with the contents of <file>.
+  -std=<standard>          Assume that the input sources are for <standard>.
+  --sysroot=<directory>    Use <directory> as the root directory for headers
+                           and libraries.
+  -B <directory>           Add <directory> to the compiler's search paths.
+  -v                       Display the programs invoked by the compiler.
+  -###                     Like -v but options quoted and commands not executed.
+  -E                       Preprocess only; do not compile, assemble or link.
+  -S                       Compile only; do not assemble or link.
+  -c                       Compile and assemble, but do not link.
+  -o <file>                Place the output into <file>.
+  -pie                     Create a position independent executable.
+  -shared                  Create a shared library.
+  -x <language>            Specify the language of the following input files.
+                           Permissible languages include: c c++ assembler none
+                           'none' means revert to the default behavior of
+                           guessing the language based on the file's extension.
+Options starting with -g, -f, -m, -O, -W, or --param are automatically
+ passed on to the various sub-processes invoked by arm-linux-gnueabi-gcc.  In order to pass
+ other options on to these processes the -W<letter> options must be used.
+For bug reporting instructions, please see:
+<file:///usr/share/doc/gcc-7/README.Bugs>.
+================================================================================
+TEST checkRestrict from config.compilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/compilers.py:137)
+TESTING: checkRestrict from config.compilers(config/BuildSystem/config/compilers.py:137)
+  Check for the C/CXX restrict keyword
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -V
+              Pushing language C
+                        All intermediate test results are stored in /tmp/petsc-BwhN3_/config.compilers
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.compilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.compilers -I/tmp/petsc-BwhN3_/config.setCompilers   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden -O3  /tmp/petsc-BwhN3_/config.compilers/conftest.c 
+Possible ERROR while running compiler:
+stderr:
+/tmp/petsc-BwhN3_/config.compilers/conftest.c: In function ‘main’:
+/tmp/petsc-BwhN3_/config.compilers/conftest.c:5:20: warning: unused variable ‘x’ [-Wunused-variable]
+ float * __restrict x;;
+                    ^
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+
+int main() {
+float * __restrict x;;
+  return 0;
+}
+            compilers: Set C restrict keyword to __restrict
+              Defined "C_RESTRICT" to "__restrict"
+              Popping language C
+================================================================================
+TEST checkCFormatting from config.compilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/compilers.py:322)
+TESTING: checkCFormatting from config.compilers(config/BuildSystem/config/compilers.py:322)
+  Activate format string checking if using the GNU compilers
+================================================================================
+TEST checkCStaticInline from config.compilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/compilers.py:108)
+TESTING: checkCStaticInline from config.compilers(config/BuildSystem/config/compilers.py:108)
+  Check for C keyword: static inline
+              Pushing language C
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.compilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers -I/tmp/petsc-BwhN3_/config.compilers   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden -O3  /tmp/petsc-BwhN3_/config.compilers/conftest.c 
+Successful compile:
+Source:
+#include "confdefs.h"
+#include "conffix.h"
+static inline int foo(int a) {return a;}
+
+int main() {
+foo(1);;
+  return 0;
+}
+            compilers: Set C StaticInline keyword to static inline
+              Popping language C
+              Defined "C_STATIC_INLINE" to "static inline"
+================================================================================
+TEST checkDynamicLoadFlag from config.compilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/compilers.py:333)
+TESTING: checkDynamicLoadFlag from config.compilers(config/BuildSystem/config/compilers.py:333)
+  Checks that dlopen() takes RTLD_XXX, and defines PETSC_HAVE_RTLD_XXX if it does
+Executing: /store/software/opendihu/dependencies/mpi/install/bin/mpicc -c -o /tmp/petsc-BwhN3_/config.compilers/conftest.o -I/tmp/petsc-BwhN3_/config.libraries -I/tmp/petsc-BwhN3_/config.setCompilers -I/tmp/petsc-BwhN3_/config.compilers   -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden -O3  /tmp/petsc-BwhN3_/config.compilers/conftest.c 

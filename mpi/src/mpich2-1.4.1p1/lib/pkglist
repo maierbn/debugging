@@ -1,0 +1,7 @@
+ src/mpid/ch3  src/mpi/romio src/pmi/simple src/pm/hydra src/mpe2 
+arm-linux-gnueabi-gcc    -O2
+arm-linux-gnueabi-gcc   -O2
+arm-linux-gnueabi-gfortran  
+arm-linux-gnueabi-gfortran  
+ '--prefix=/store/software/opendihu/dependencies/mpi/install' 'CC=arm-linux-gnueabi-gcc' 'CXX=arm-linux-gnueabi-gcc' 'AR=arm-linux-gnueabi-ar' 'CPP=arm-linux-gnueabi-cpp' '--target=arm-linux-gnueabi' '--host=arm-linux-gnueabi' '--disable-fc' '--disable-f77' '--enable-shared' 'host_alias=arm-linux-gnueabi' 'target_alias=arm-linux-gnueabi' 'F77=arm-linux-gnueabi-gfortran' 'FC=arm-linux-gnueabi-gfortran'
+ 

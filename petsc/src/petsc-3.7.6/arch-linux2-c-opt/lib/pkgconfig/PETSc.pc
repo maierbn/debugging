@@ -1,0 +1,15 @@
+prefix=/store/software/opendihu/dependencies/petsc/install
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=/store/software/opendihu/dependencies/petsc/install/lib
+ccompiler=/store/software/opendihu/dependencies/mpi/install/bin/mpicc
+cflags_extra="-Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fvisibility=hidden -O3"
+cflags_dep="-MMD -MP"
+ldflag_rpath="-Wl,-rpath,"
+
+Name: PETSc
+Description: Library to solve ODEs and algebraic equations
+Version: 3.7.6
+Cflags:  -I/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/include -I/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/arch-linux2-c-opt/include -I/store/software/opendihu/dependencies/mpi/install/include
+Libs: -L${libdir} -lpetsc
+Libs.private: -L/store/software/opendihu/dependencies/lapack/install/lib  -llapack  -lblas -L/store/software/opendihu/dependencies/mpi/install/lib  -lmpich -L/usr/lib/gcc-cross/arm-linux-gnueabi/7 -L/usr/arm-linux-gnueabi/lib -L/usr/lib/arm-linux-gnueabi -lpthread -lm -lmpichcxx -ldl -lmpich -lopa -lmpl -lrt -lpthread -lgcc_s -ldl

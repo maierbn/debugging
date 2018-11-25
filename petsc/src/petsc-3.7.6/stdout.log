@@ -1,0 +1,70 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The version of PETSc you are using is out-of-date, we recommend updating to the new release
+ Available Version: 3.10.2   Installed Version: 3.7.6
+http://www.mcs.anl.gov/petsc/download/index.html
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+             Configuring PETSc to compile on your system                       
+===============================================================================
+TESTING: configureExternalPackagesDir from config.framework(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/framework.py:834)
+TESTING: configureDebuggers from config.utilities.debuggers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/utilities/debuggers.py:22)
+TESTING: configureGit from config.sourceControl(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/sourceControl.py:24)
+TESTING: configureMercurial from config.sourceControl(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/sourceControl.py:35)
+TESTING: configureCLanguage from PETSc.options.languages(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/languages.py:27)
+TESTING: configureDirectories from PETSc.options.petscdir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/petscdir.py:23)
+TESTING: getDatafilespath from PETSc.options.dataFilesPath(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/dataFilesPath.py:29)
+TESTING: configureInstallationMethod from PETSc.options.petscclone(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/petscclone.py:20)
+TESTING: configureArchitecture from PETSc.options.arch(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/arch.py:36)
+TESTING: setInstallDir from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:35)
+TESTING: saveReconfigure from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:74)
+TESTING: cleanInstallDir from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:67)
+TESTING: configureInstallDir from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:51)
+TESTING: restoreReconfigure from PETSc.options.installDir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/installDir.py:87)
+TESTING: setExternalPackagesDir from PETSc.options.externalpackagesdir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/externalpackagesdir.py:15)
+TESTING: cleanExternalpackagesDir from PETSc.options.externalpackagesdir(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/PETSc/options/externalpackagesdir.py:22)
+TESTING: printEnvVariables from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1589)
+TESTING: resetEnvCompilers from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1596)
+                ===============================================================================
+                    ***** WARNING: CC (set to arm-linux-gnueabi-gcc) found in environment variables - ignoring 
+                     use ./configure CC=$CC if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: CXX (set to arm-linux-gnueabi-g++) found in environment variables - ignoring 
+                     use ./configure CXX=$CXX if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: FC (set to arm-linux-gnueabi-gfortran) found in environment variables - ignoring 
+                     use ./configure FC=$FC if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: F77 (set to arm-linux-gnueabi-gfortran) found in environment variables - ignoring 
+                     use ./configure F77=$F77 if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: CPP (set to arm-linux-gnueabi-cpp) found in environment variables - ignoring 
+                     use ./configure CPP=$CPP if you really want to use that value ******
+                ===============================================================================
+              
+                ===============================================================================
+                    ***** WARNING: AR (set to arm-linux-gnueabi-ar) found in environment variables - ignoring 
+                     use ./configure AR=$AR if you really want to use that value ******
+                ===============================================================================
+              
+TESTING: checkEnvCompilers from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1626)
+TESTING: checkMPICompilerOverride from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1561)
+TESTING: requireMpiLdPath from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:1580)
+TESTING: checkVendor from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:417)
+TESTING: checkInitialFlags from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:427)
+TESTING: checkCCompiler from config.setCompilers(/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/config/BuildSystem/config/setCompilers.py:553)
+*******************************************************************************
+                    UNABLE to EXECUTE BINARIES for ./configure 
+-------------------------------------------------------------------------------
+Cannot run executables created with C. If this machine uses a batch system 
+to submit jobs you will need to configure using ./configure with the additional option  --with-batch.
+ Otherwise there is problem with the compilers. Can you compile and run code with your compiler '/store/software/opendihu/dependencies/mpi/install/bin/mpicc'?
+*******************************************************************************
+

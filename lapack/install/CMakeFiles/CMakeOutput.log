@@ -1,0 +1,473 @@
+The system is: Linux - 4.15.0-39-generic - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/arm-linux-gnueabi-gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/arm-linux-gnueabi-gfortran -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabi-gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper
+Target: arm-linux-gnueabi
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv5t --with-float=soft --disable-werror --enable-multilib --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabi --program-prefix=arm-linux-gnueabi- --includedir=/usr/arm-linux-gnueabi/include
+Thread model: posix
+gcc version 7.3.0 (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccfKRj3f.f90 -quiet -v -imultiarch arm-linux-gnueabi CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -march=armv5t -mfloat-abi=soft -mtls-dialect=gnu -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc-cross/arm-linux-gnueabi/7/finclude -o /tmp/ccWMbwIc.s
+GNU Fortran (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) version 7.3.0 (arm-linux-gnueabi)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabi"
+ignoring nonexistent directory "/usr/include/arm-linux-gnueabi"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/finclude
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/include
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/include-fixed
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/include
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) version 7.3.0 (arm-linux-gnueabi)
+	compiled by GNU C version 7.3.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/as -v -march=armv5t -mfloat-abi=soft -meabi=5 -o /tmp/ccJXGAE9.o /tmp/ccWMbwIc.s
+GNU assembler version 2.30 (arm-linux-gnueabi) using BFD version (GNU Binutils for Ubuntu) 2.30
+Reading specs from /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/:/lib/../lib/:/usr/lib/arm-linux-gnueabi/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0BeqC6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabi/7 -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib -L/lib/../lib -L/usr/lib/arm-linux-gnueabi -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib /tmp/ccJXGAE9.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/store/software/opendihu/dependencies/lapack/install/CMakeFiles/3.10.2/CompilerIdFortran/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/arm-linux-gnueabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/store/software/opendihu/dependencies/lapack/install/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f144b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f144b.dir/build.make CMakeFiles/cmTC_f144b.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_f144b.dir/testFortranCompiler.f.o
+/usr/bin/arm-linux-gnueabi-gfortran    -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_f144b.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_f144b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f144b.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gfortran      CMakeFiles/cmTC_f144b.dir/testFortranCompiler.f.o  -o cmTC_f144b 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_200c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_200c9.dir/build.make CMakeFiles/cmTC_200c9.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/arm-linux-gnueabi-gfortran    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_200c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_200c9.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gfortran   -v   CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o  -o cmTC_200c9 
+Driving: /usr/bin/arm-linux-gnueabi-gfortran -v CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o -o cmTC_200c9 -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabi-gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper
+Target: arm-linux-gnueabi
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv5t --with-float=soft --disable-werror --enable-multilib --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabi --program-prefix=arm-linux-gnueabi- --includedir=/usr/arm-linux-gnueabi/include
+Thread model: posix
+gcc version 7.3.0 (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 
+Reading specs from /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_200c9' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/:/lib/../lib/:/usr/lib/arm-linux-gnueabi/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_200c9' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrjQ9fV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_200c9 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabi/7 -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib -L/lib/../lib -L/usr/lib/arm-linux-gnueabi -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_200c9' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_200c9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_200c9.dir/build.make CMakeFiles/cmTC_200c9.dir/build]
+  ignore line: [make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/arm-linux-gnueabi-gfortran    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_200c9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_200c9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabi-gfortran   -v   CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o  -o cmTC_200c9 ]
+  ignore line: [Driving: /usr/bin/arm-linux-gnueabi-gfortran -v CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o -o cmTC_200c9 -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabi-gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabi]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv5t --with-float=soft --disable-werror --enable-multilib --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabi --program-prefix=arm-linux-gnueabi- --includedir=/usr/arm-linux-gnueabi/include]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) ]
+  ignore line: [Reading specs from /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_200c9' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/:/lib/../lib/:/usr/lib/arm-linux-gnueabi/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_200c9' '-shared-libgcc' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrjQ9fV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_200c9 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabi/7 -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib -L/lib/../lib -L/usr/lib/arm-linux-gnueabi -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrjQ9fV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_200c9] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabi/7] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabi] ==> dir [/usr/lib/arm-linux-gnueabi]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib]
+    arg [CMakeFiles/cmTC_200c9.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7] ==> [/usr/lib/gcc-cross/arm-linux-gnueabi/7]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib] ==> [/usr/arm-linux-gnueabi/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabi] ==> [/usr/lib/arm-linux-gnueabi]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib] ==> [/usr/arm-linux-gnueabi/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc-cross/arm-linux-gnueabi/7;/usr/arm-linux-gnueabi/lib;/lib;/usr/lib/arm-linux-gnueabi;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12c72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12c72.dir/build.make CMakeFiles/cmTC_12c72.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_12c72.dir/testFortranCompilerF90.f90.o
+/usr/bin/arm-linux-gnueabi-gfortran    -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_12c72.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_12c72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12c72.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gfortran      CMakeFiles/cmTC_12c72.dir/testFortranCompilerF90.f90.o  -o cmTC_12c72 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14669/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14669.dir/build.make CMakeFiles/cmTC_14669.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14669.dir/testCCompiler.c.o
+/usr/bin/arm-linux-gnueabi-gcc    -o CMakeFiles/cmTC_14669.dir/testCCompiler.c.o   -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_14669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14669.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc      -rdynamic CMakeFiles/cmTC_14669.dir/testCCompiler.c.o  -o cmTC_14669 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dddf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dddf.dir/build.make CMakeFiles/cmTC_2dddf.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o
+/usr/bin/arm-linux-gnueabi-gcc    -o CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2dddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dddf.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc     -v -rdynamic CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o  -o cmTC_2dddf 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper
+Target: arm-linux-gnueabi
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv5t --with-float=soft --disable-werror --enable-multilib --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabi --program-prefix=arm-linux-gnueabi- --includedir=/usr/arm-linux-gnueabi/include
+Thread model: posix
+gcc version 7.3.0 (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/:/lib/../lib/:/usr/lib/arm-linux-gnueabi/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dddf' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccukNFNg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_2dddf /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabi/7 -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib -L/lib/../lib -L/usr/lib/arm-linux-gnueabi -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dddf' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2dddf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2dddf.dir/build.make CMakeFiles/cmTC_2dddf.dir/build]
+  ignore line: [make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/arm-linux-gnueabi-gcc    -o CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2dddf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dddf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabi-gcc     -v -rdynamic CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o  -o cmTC_2dddf ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabi]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv5t --with-float=soft --disable-werror --enable-multilib --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabi --program-prefix=arm-linux-gnueabi- --includedir=/usr/arm-linux-gnueabi/include]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Ubuntu/Linaro 7.3.0-27ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabi/7/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/:/lib/../lib/:/usr/lib/arm-linux-gnueabi/:/usr/lib/../lib/:/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dddf' '-march=armv5t' '-mfloat-abi=soft' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccukNFNg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTC_2dddf /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o -L/usr/lib/gcc-cross/arm-linux-gnueabi/7 -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib -L/lib/../lib -L/usr/lib/arm-linux-gnueabi -L/usr/lib/../lib -L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabi/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccukNFNg.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2dddf] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabi/7] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/arm-linux-gnueabi] ==> dir [/usr/lib/arm-linux-gnueabi]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib]
+    arg [CMakeFiles/cmTC_2dddf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7] ==> [/usr/lib/gcc-cross/arm-linux-gnueabi/7]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib] ==> [/usr/arm-linux-gnueabi/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/arm-linux-gnueabi] ==> [/usr/lib/arm-linux-gnueabi]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib] ==> [/usr/arm-linux-gnueabi/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc-cross/arm-linux-gnueabi/7;/usr/arm-linux-gnueabi/lib;/lib;/usr/lib/arm-linux-gnueabi;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4dcc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4dcc7.dir/build.make CMakeFiles/cmTC_4dcc7.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dcc7.dir/feature_tests.c.o
+/usr/bin/arm-linux-gnueabi-gcc   -std=c11 -o CMakeFiles/cmTC_4dcc7.dir/feature_tests.c.o   -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4dcc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dcc7.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc      -rdynamic CMakeFiles/cmTC_4dcc7.dir/feature_tests.c.o  -o cmTC_4dcc7 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d943e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d943e.dir/build.make CMakeFiles/cmTC_d943e.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d943e.dir/feature_tests.c.o
+/usr/bin/arm-linux-gnueabi-gcc   -std=c99 -o CMakeFiles/cmTC_d943e.dir/feature_tests.c.o   -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d943e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d943e.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc      -rdynamic CMakeFiles/cmTC_d943e.dir/feature_tests.c.o  -o cmTC_d943e 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b2c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b2c7.dir/build.make CMakeFiles/cmTC_3b2c7.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b2c7.dir/feature_tests.c.o
+/usr/bin/arm-linux-gnueabi-gcc   -std=c90 -o CMakeFiles/cmTC_3b2c7.dir/feature_tests.c.o   -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3b2c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b2c7.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc      -rdynamic CMakeFiles/cmTC_3b2c7.dir/feature_tests.c.o  -o cmTC_3b2c7 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Fortran NONE exists. Change Dir: /store/software/opendihu/dependencies/lapack/install/INSTALL
+
+Run Build Command:"/usr/bin/make" "secondtst_NONE"
+Scanning dependencies of target secondtst_NONE
+[ 33%] Building Fortran object CMakeFiles/secondtst_NONE.dir/second_NONE.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_NONE.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_NONE
+[100%] Built target secondtst_NONE
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: /store/software/opendihu/dependencies/lapack/install/INSTALL
+
+Run Build Command:"/usr/bin/make" "secondtst_INT_CPU_TIME"
+Scanning dependencies of target secondtst_INT_CPU_TIME
+[ 33%] Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/second_INT_CPU_TIME.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_INT_CPU_TIME
+[100%] Built target secondtst_INT_CPU_TIME
+ 
+
+Fortran INT_ETIME exists. Change Dir: /store/software/opendihu/dependencies/lapack/install/INSTALL
+
+Run Build Command:"/usr/bin/make" "secondtst_INT_ETIME"
+Scanning dependencies of target secondtst_INT_ETIME
+[ 33%] Building Fortran object CMakeFiles/secondtst_INT_ETIME.dir/second_INT_ETIME.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_INT_ETIME.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_INT_ETIME
+[100%] Built target secondtst_INT_ETIME
+ 
+
+Verifying Fortran/C Compiler Compatibility passed with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC
+
+Run Build Command:"/usr/bin/make" "VerifyFortranC"
+/usr/bin/cmake -H/usr/share/cmake-3.10/Modules/FortranCInterface/Verify -B/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/make -f CMakeFiles/Makefile2 VerifyFortranC
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+/usr/bin/cmake -H/usr/share/cmake-3.10/Modules/FortranCInterface/Verify -B/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles 5
+/usr/bin/make -f CMakeFiles/Makefile2 CMakeFiles/VerifyFortranC.dir/all
+make[2]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+make[3]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+cd /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-3.10/Modules/FortranCInterface/Verify /usr/share/cmake-3.10/Modules/FortranCInterface/Verify /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortran
+make[3]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/requires
+make[3]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+make[3]: Nothing to be done for 'CMakeFiles/VerifyFortran.dir/requires'.
+make[3]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+make[3]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+[ 20%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/arm-linux-gnueabi-gfortran  -I/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC  -O2 -DNDEBUG -O2   -c /usr/share/cmake-3.10/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+[ 40%] Linking Fortran static library libVerifyFortran.a
+/usr/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/ar qc libVerifyFortran.a  CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/ranlib libVerifyFortran.a
+make[3]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+[ 40%] Built target VerifyFortran
+/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+make[3]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+cd /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-3.10/Modules/FortranCInterface/Verify /usr/share/cmake-3.10/Modules/FortranCInterface/Verify /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortranC
+make[3]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+make[3]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+[ 60%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
+/usr/bin/arm-linux-gnueabi-gcc  -I/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-3.10/Modules/FortranCInterface/Verify/main.c
+[ 80%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
+/usr/bin/arm-linux-gnueabi-gcc  -I/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC  -O3 -DNDEBUG   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-3.10/Modules/FortranCInterface/Verify/VerifyC.c
+[100%] Linking C executable VerifyFortranC
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc -O3 -DNDEBUG   CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o  -o VerifyFortranC libVerifyFortran.a -lgfortran -lm -lm 
+make[3]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+[100%] Built target VerifyFortranC
+make[2]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+/usr/bin/cmake -E cmake_progress_start /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles 0
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC'
+
+

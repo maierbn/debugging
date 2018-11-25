@@ -1,0 +1,430 @@
+bsci_query_native_int.lo: tools/bootstrap/src/bsci_query_native_int.c \
+ /usr/arm-linux-gnueabi/include/stdc-predef.h include/hydra.h \
+ ../../mpl/include/mpl.h ../../mpl/include/mplconfig.h \
+ /usr/arm-linux-gnueabi/include/stdio.h \
+ /usr/arm-linux-gnueabi/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabi/include/features.h \
+ /usr/arm-linux-gnueabi/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabi/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabi/include/bits/long-double.h \
+ /usr/arm-linux-gnueabi/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabi/include/gnu/stubs-soft.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h \
+ /usr/arm-linux-gnueabi/include/bits/types.h \
+ /usr/arm-linux-gnueabi/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabi/include/bits/types/__FILE.h \
+ /usr/arm-linux-gnueabi/include/bits/types/FILE.h \
+ /usr/arm-linux-gnueabi/include/bits/libio.h \
+ /usr/arm-linux-gnueabi/include/bits/_G_config.h \
+ /usr/arm-linux-gnueabi/include/bits/types/__mbstate_t.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stdarg.h \
+ /usr/arm-linux-gnueabi/include/bits/stdio_lim.h \
+ /usr/arm-linux-gnueabi/include/bits/sys_errlist.h \
+ /usr/arm-linux-gnueabi/include/bits/stdio.h \
+ /usr/arm-linux-gnueabi/include/bits/stdio2.h \
+ /usr/arm-linux-gnueabi/include/stdlib.h \
+ /usr/arm-linux-gnueabi/include/bits/waitflags.h \
+ /usr/arm-linux-gnueabi/include/bits/waitstatus.h \
+ /usr/arm-linux-gnueabi/include/bits/floatn.h \
+ /usr/arm-linux-gnueabi/include/bits/floatn-common.h \
+ /usr/arm-linux-gnueabi/include/sys/types.h \
+ /usr/arm-linux-gnueabi/include/bits/types/clock_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/clockid_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/time_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/timer_t.h \
+ /usr/arm-linux-gnueabi/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabi/include/endian.h \
+ /usr/arm-linux-gnueabi/include/bits/endian.h \
+ /usr/arm-linux-gnueabi/include/bits/byteswap.h \
+ /usr/arm-linux-gnueabi/include/bits/byteswap-16.h \
+ /usr/arm-linux-gnueabi/include/bits/uintn-identity.h \
+ /usr/arm-linux-gnueabi/include/sys/select.h \
+ /usr/arm-linux-gnueabi/include/bits/select.h \
+ /usr/arm-linux-gnueabi/include/bits/types/sigset_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/__sigset_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_timeval.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_timespec.h \
+ /usr/arm-linux-gnueabi/include/bits/select2.h \
+ /usr/arm-linux-gnueabi/include/sys/sysmacros.h \
+ /usr/arm-linux-gnueabi/include/bits/sysmacros.h \
+ /usr/arm-linux-gnueabi/include/bits/pthreadtypes.h \
+ /usr/arm-linux-gnueabi/include/bits/thread-shared-types.h \
+ /usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h \
+ /usr/arm-linux-gnueabi/include/alloca.h \
+ /usr/arm-linux-gnueabi/include/bits/stdlib-bsearch.h \
+ /usr/arm-linux-gnueabi/include/bits/stdlib-float.h \
+ /usr/arm-linux-gnueabi/include/bits/stdlib.h \
+ /usr/arm-linux-gnueabi/include/string.h \
+ /usr/arm-linux-gnueabi/include/bits/types/locale_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/__locale_t.h \
+ /usr/arm-linux-gnueabi/include/strings.h \
+ /usr/arm-linux-gnueabi/include/bits/strings_fortified.h \
+ /usr/arm-linux-gnueabi/include/bits/string_fortified.h \
+ /usr/arm-linux-gnueabi/include/ctype.h \
+ /usr/arm-linux-gnueabi/include/inttypes.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stdint.h \
+ /usr/arm-linux-gnueabi/include/stdint.h \
+ /usr/arm-linux-gnueabi/include/bits/wchar.h \
+ /usr/arm-linux-gnueabi/include/bits/stdint-uintn.h \
+ ../../mpl/include/mpl_valgrind.h ../../mpl/include/mplstr.h \
+ ../../mpl/include/mpltrmem.h ../../mpl/include/mplenv.h \
+ include/hydra_config.h /usr/arm-linux-gnueabi/include/unistd.h \
+ /usr/arm-linux-gnueabi/include/bits/posix_opt.h \
+ /usr/arm-linux-gnueabi/include/bits/environments.h \
+ /usr/arm-linux-gnueabi/include/bits/confname.h \
+ /usr/arm-linux-gnueabi/include/bits/getopt_posix.h \
+ /usr/arm-linux-gnueabi/include/bits/getopt_core.h \
+ /usr/arm-linux-gnueabi/include/bits/unistd.h \
+ /usr/arm-linux-gnueabi/include/sys/stat.h \
+ /usr/arm-linux-gnueabi/include/bits/stat.h \
+ /usr/arm-linux-gnueabi/include/time.h \
+ /usr/arm-linux-gnueabi/include/bits/time.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_tm.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_itimerspec.h \
+ /usr/arm-linux-gnueabi/include/sys/time.h \
+ /usr/arm-linux-gnueabi/include/ifaddrs.h \
+ /usr/arm-linux-gnueabi/include/sys/socket.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_iovec.h \
+ /usr/arm-linux-gnueabi/include/bits/socket.h \
+ /usr/arm-linux-gnueabi/include/bits/socket_type.h \
+ /usr/arm-linux-gnueabi/include/bits/sockaddr.h \
+ /usr/arm-linux-gnueabi/include/asm/socket.h \
+ /usr/arm-linux-gnueabi/include/asm-generic/socket.h \
+ /usr/arm-linux-gnueabi/include/asm/sockios.h \
+ /usr/arm-linux-gnueabi/include/asm-generic/sockios.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_osockaddr.h \
+ /usr/arm-linux-gnueabi/include/bits/socket2.h \
+ /usr/arm-linux-gnueabi/include/arpa/inet.h \
+ /usr/arm-linux-gnueabi/include/netinet/in.h \
+ /usr/arm-linux-gnueabi/include/bits/in.h \
+ /usr/arm-linux-gnueabi/include/errno.h \
+ /usr/arm-linux-gnueabi/include/bits/errno.h \
+ /usr/arm-linux-gnueabi/include/linux/errno.h \
+ /usr/arm-linux-gnueabi/include/asm/errno.h \
+ /usr/arm-linux-gnueabi/include/asm-generic/errno.h \
+ /usr/arm-linux-gnueabi/include/asm-generic/errno-base.h \
+ /usr/arm-linux-gnueabi/include/poll.h \
+ /usr/arm-linux-gnueabi/include/sys/poll.h \
+ /usr/arm-linux-gnueabi/include/bits/poll.h \
+ /usr/arm-linux-gnueabi/include/bits/poll2.h \
+ /usr/arm-linux-gnueabi/include/fcntl.h \
+ /usr/arm-linux-gnueabi/include/bits/fcntl.h \
+ /usr/arm-linux-gnueabi/include/bits/fcntl-linux.h \
+ /usr/arm-linux-gnueabi/include/bits/fcntl2.h \
+ /usr/arm-linux-gnueabi/include/netdb.h \
+ /usr/arm-linux-gnueabi/include/rpc/netdb.h \
+ /usr/arm-linux-gnueabi/include/bits/netdb.h \
+ /usr/arm-linux-gnueabi/include/netinet/tcp.h \
+ /usr/arm-linux-gnueabi/include/sys/wait.h \
+ /usr/arm-linux-gnueabi/include/signal.h \
+ /usr/arm-linux-gnueabi/include/bits/signum.h \
+ /usr/arm-linux-gnueabi/include/bits/signum-generic.h \
+ /usr/arm-linux-gnueabi/include/bits/types/sig_atomic_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/siginfo_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/__sigval_t.h \
+ /usr/arm-linux-gnueabi/include/bits/siginfo-arch.h \
+ /usr/arm-linux-gnueabi/include/bits/siginfo-consts.h \
+ /usr/arm-linux-gnueabi/include/bits/types/sigval_t.h \
+ /usr/arm-linux-gnueabi/include/bits/types/sigevent_t.h \
+ /usr/arm-linux-gnueabi/include/bits/sigevent-consts.h \
+ /usr/arm-linux-gnueabi/include/bits/sigaction.h \
+ /usr/arm-linux-gnueabi/include/bits/sigcontext.h \
+ /usr/arm-linux-gnueabi/include/asm/sigcontext.h \
+ /usr/arm-linux-gnueabi/include/bits/types/stack_t.h \
+ /usr/arm-linux-gnueabi/include/sys/ucontext.h \
+ /usr/arm-linux-gnueabi/include/bits/sigstack.h \
+ /usr/arm-linux-gnueabi/include/bits/ss_flags.h \
+ /usr/arm-linux-gnueabi/include/bits/types/struct_sigstack.h \
+ /usr/arm-linux-gnueabi/include/bits/sigthread.h \
+ tools/bootstrap/include/bsci.h tools/bootstrap/utils/bscu.h \
+ tools/demux/demux.h
+
+/usr/arm-linux-gnueabi/include/stdc-predef.h:
+
+include/hydra.h:
+
+../../mpl/include/mpl.h:
+
+../../mpl/include/mplconfig.h:
+
+/usr/arm-linux-gnueabi/include/stdio.h:
+
+/usr/arm-linux-gnueabi/include/bits/libc-header-start.h:
+
+/usr/arm-linux-gnueabi/include/features.h:
+
+/usr/arm-linux-gnueabi/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabi/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabi/include/bits/long-double.h:
+
+/usr/arm-linux-gnueabi/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabi/include/gnu/stubs-soft.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stddef.h:
+
+/usr/arm-linux-gnueabi/include/bits/types.h:
+
+/usr/arm-linux-gnueabi/include/bits/typesizes.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/__FILE.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/FILE.h:
+
+/usr/arm-linux-gnueabi/include/bits/libio.h:
+
+/usr/arm-linux-gnueabi/include/bits/_G_config.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stdarg.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdio_lim.h:
+
+/usr/arm-linux-gnueabi/include/bits/sys_errlist.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdio.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdio2.h:
+
+/usr/arm-linux-gnueabi/include/stdlib.h:
+
+/usr/arm-linux-gnueabi/include/bits/waitflags.h:
+
+/usr/arm-linux-gnueabi/include/bits/waitstatus.h:
+
+/usr/arm-linux-gnueabi/include/bits/floatn.h:
+
+/usr/arm-linux-gnueabi/include/bits/floatn-common.h:
+
+/usr/arm-linux-gnueabi/include/sys/types.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/clock_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/clockid_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/time_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/timer_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdint-intn.h:
+
+/usr/arm-linux-gnueabi/include/endian.h:
+
+/usr/arm-linux-gnueabi/include/bits/endian.h:
+
+/usr/arm-linux-gnueabi/include/bits/byteswap.h:
+
+/usr/arm-linux-gnueabi/include/bits/byteswap-16.h:
+
+/usr/arm-linux-gnueabi/include/bits/uintn-identity.h:
+
+/usr/arm-linux-gnueabi/include/sys/select.h:
+
+/usr/arm-linux-gnueabi/include/bits/select.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/sigset_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/__sigset_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_timeval.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_timespec.h:
+
+/usr/arm-linux-gnueabi/include/bits/select2.h:
+
+/usr/arm-linux-gnueabi/include/sys/sysmacros.h:
+
+/usr/arm-linux-gnueabi/include/bits/sysmacros.h:
+
+/usr/arm-linux-gnueabi/include/bits/pthreadtypes.h:
+
+/usr/arm-linux-gnueabi/include/bits/thread-shared-types.h:
+
+/usr/arm-linux-gnueabi/include/bits/pthreadtypes-arch.h:
+
+/usr/arm-linux-gnueabi/include/alloca.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdlib-bsearch.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdlib-float.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdlib.h:
+
+/usr/arm-linux-gnueabi/include/string.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/locale_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/__locale_t.h:
+
+/usr/arm-linux-gnueabi/include/strings.h:
+
+/usr/arm-linux-gnueabi/include/bits/strings_fortified.h:
+
+/usr/arm-linux-gnueabi/include/bits/string_fortified.h:
+
+/usr/arm-linux-gnueabi/include/ctype.h:
+
+/usr/arm-linux-gnueabi/include/inttypes.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/include/stdint.h:
+
+/usr/arm-linux-gnueabi/include/stdint.h:
+
+/usr/arm-linux-gnueabi/include/bits/wchar.h:
+
+/usr/arm-linux-gnueabi/include/bits/stdint-uintn.h:
+
+../../mpl/include/mpl_valgrind.h:
+
+../../mpl/include/mplstr.h:
+
+../../mpl/include/mpltrmem.h:
+
+../../mpl/include/mplenv.h:
+
+include/hydra_config.h:
+
+/usr/arm-linux-gnueabi/include/unistd.h:
+
+/usr/arm-linux-gnueabi/include/bits/posix_opt.h:
+
+/usr/arm-linux-gnueabi/include/bits/environments.h:
+
+/usr/arm-linux-gnueabi/include/bits/confname.h:
+
+/usr/arm-linux-gnueabi/include/bits/getopt_posix.h:
+
+/usr/arm-linux-gnueabi/include/bits/getopt_core.h:
+
+/usr/arm-linux-gnueabi/include/bits/unistd.h:
+
+/usr/arm-linux-gnueabi/include/sys/stat.h:
+
+/usr/arm-linux-gnueabi/include/bits/stat.h:
+
+/usr/arm-linux-gnueabi/include/time.h:
+
+/usr/arm-linux-gnueabi/include/bits/time.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_tm.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_itimerspec.h:
+
+/usr/arm-linux-gnueabi/include/sys/time.h:
+
+/usr/arm-linux-gnueabi/include/ifaddrs.h:
+
+/usr/arm-linux-gnueabi/include/sys/socket.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_iovec.h:
+
+/usr/arm-linux-gnueabi/include/bits/socket.h:
+
+/usr/arm-linux-gnueabi/include/bits/socket_type.h:
+
+/usr/arm-linux-gnueabi/include/bits/sockaddr.h:
+
+/usr/arm-linux-gnueabi/include/asm/socket.h:
+
+/usr/arm-linux-gnueabi/include/asm-generic/socket.h:
+
+/usr/arm-linux-gnueabi/include/asm/sockios.h:
+
+/usr/arm-linux-gnueabi/include/asm-generic/sockios.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_osockaddr.h:
+
+/usr/arm-linux-gnueabi/include/bits/socket2.h:
+
+/usr/arm-linux-gnueabi/include/arpa/inet.h:
+
+/usr/arm-linux-gnueabi/include/netinet/in.h:
+
+/usr/arm-linux-gnueabi/include/bits/in.h:
+
+/usr/arm-linux-gnueabi/include/errno.h:
+
+/usr/arm-linux-gnueabi/include/bits/errno.h:
+
+/usr/arm-linux-gnueabi/include/linux/errno.h:
+
+/usr/arm-linux-gnueabi/include/asm/errno.h:
+
+/usr/arm-linux-gnueabi/include/asm-generic/errno.h:
+
+/usr/arm-linux-gnueabi/include/asm-generic/errno-base.h:
+
+/usr/arm-linux-gnueabi/include/poll.h:
+
+/usr/arm-linux-gnueabi/include/sys/poll.h:
+
+/usr/arm-linux-gnueabi/include/bits/poll.h:
+
+/usr/arm-linux-gnueabi/include/bits/poll2.h:
+
+/usr/arm-linux-gnueabi/include/fcntl.h:
+
+/usr/arm-linux-gnueabi/include/bits/fcntl.h:
+
+/usr/arm-linux-gnueabi/include/bits/fcntl-linux.h:
+
+/usr/arm-linux-gnueabi/include/bits/fcntl2.h:
+
+/usr/arm-linux-gnueabi/include/netdb.h:
+
+/usr/arm-linux-gnueabi/include/rpc/netdb.h:
+
+/usr/arm-linux-gnueabi/include/bits/netdb.h:
+
+/usr/arm-linux-gnueabi/include/netinet/tcp.h:
+
+/usr/arm-linux-gnueabi/include/sys/wait.h:
+
+/usr/arm-linux-gnueabi/include/signal.h:
+
+/usr/arm-linux-gnueabi/include/bits/signum.h:
+
+/usr/arm-linux-gnueabi/include/bits/signum-generic.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/sig_atomic_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/siginfo_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/__sigval_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/siginfo-arch.h:
+
+/usr/arm-linux-gnueabi/include/bits/siginfo-consts.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/sigval_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/sigevent_t.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigevent-consts.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigaction.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigcontext.h:
+
+/usr/arm-linux-gnueabi/include/asm/sigcontext.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/stack_t.h:
+
+/usr/arm-linux-gnueabi/include/sys/ucontext.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigstack.h:
+
+/usr/arm-linux-gnueabi/include/bits/ss_flags.h:
+
+/usr/arm-linux-gnueabi/include/bits/types/struct_sigstack.h:
+
+/usr/arm-linux-gnueabi/include/bits/sigthread.h:
+
+tools/bootstrap/include/bsci.h:
+
+tools/bootstrap/utils/bscu.h:
+
+tools/demux/demux.h:

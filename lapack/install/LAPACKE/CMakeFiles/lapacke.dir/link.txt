@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabi-gcc -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,liblapacke.so.3 -o ../lib/liblapacke.so.3.7.1 @CMakeFiles/lapacke.dir/objects1.rsp -Wl,-rpath,/store/software/opendihu/dependencies/lapack/install/lib: ../lib/liblapack.so.3.7.1 -Wl,-rpath-link,/store/software/opendihu/dependencies/lapack/install/lib 

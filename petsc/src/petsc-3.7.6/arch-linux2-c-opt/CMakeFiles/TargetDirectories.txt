@@ -1,0 +1,3 @@
+/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/arch-linux2-c-opt/CMakeFiles/rebuild_cache.dir
+/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/arch-linux2-c-opt/CMakeFiles/petsc.dir
+/store/software/opendihu/dependencies/petsc/src/petsc-3.7.6/arch-linux2-c-opt/CMakeFiles/edit_cache.dir

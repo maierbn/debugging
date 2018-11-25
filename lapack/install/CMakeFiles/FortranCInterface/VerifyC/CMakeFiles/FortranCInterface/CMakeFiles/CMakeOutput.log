@@ -1,0 +1,18 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
+Change Dir: /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59b7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59b7e.dir/build.make CMakeFiles/cmTC_59b7e.dir/build
+make[1]: Entering directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59b7e.dir/src.c.o
+/usr/bin/arm-linux-gnueabi-gcc   -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_59b7e.dir/src.c.o   -c /store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_59b7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59b7e.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabi-gcc  -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTC_59b7e.dir/src.c.o  -o cmTC_59b7e 
+make[1]: Leaving directory '/store/software/opendihu/dependencies/lapack/install/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+
